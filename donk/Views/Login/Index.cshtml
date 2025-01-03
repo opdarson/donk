@@ -1,7 +1,7 @@
 ﻿@model donk.Models.Usersmetadata
 
 
-<h2>Login</h2>
+<h2>登入</h2>
 
 @if (TempData["ErrorMessage"] != null)
 {
@@ -21,7 +21,7 @@
         <input asp-for="Password" type="password" class="form-control" />
         <span asp-validation-for="Password" class="text-danger"></span>
     </div>
-    <button type="submit" class="btn btn-primary">Login</button>
+    <button type="submit" class="btn btn-primary">登入</button>
 </form>
 
 @section Scripts {

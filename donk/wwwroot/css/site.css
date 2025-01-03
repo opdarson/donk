@@ -21,3 +21,34 @@ body {
     margin-bottom: 60px;
 
 }
+
+/*// footer使用//*/
+<style >
+footer {
+    text-align: center; /* 文字與內容置中 */
+    padding: 20px 0; /* 上下內邊距 */
+    background-color: #f8f9fa; /* 可選的背景色 */
+}
+
+footer a {
+    margin: 0 10px; /* 圖標間距 */
+    color: #000; /* 可選的圖標顏色 */
+    text-decoration: none;
+}
+
+    footer a:hover {
+        color: #007bff; /* 可選的懸停顏色 */
+    }
+
+.footer .container {
+    display: flex;
+    justify-content: center; /* 水平置中 */
+    align-items: center; /* 垂直置中 */
+    gap: 10px; /* 圖標與文字之間的間距 */
+}
+
+.footer i {
+    font-size: 1.5em; /* 可調整圖標大小 */
+}
+
+</style >

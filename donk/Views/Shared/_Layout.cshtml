@@ -22,26 +22,26 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                       <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">About</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">首頁</a>
                         </li>
 
+
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Register">Register</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Register">註冊</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+
+
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">登入</a>
+                        </li>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Create">新增商品</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index"><i class="fa-regular fa-heart fa-xl"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                        <li class="nav-item  ">
+                        @* <li class="nav-item"> *@
+                        @*     <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index"><i class="fa-regular fa-heart fa-xl"></i></a> *@
+                        @* </li> *@
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Cart" asp-action="Index"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -61,12 +61,14 @@
             </a>
             <a href="#">
                 <i class="fa-brands fa-instagram"></i>
-
-                </a>
-           <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            &copy; 2024 - 練習使用
-		</div>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <span>&copy; 2024 - 練習使用</span>
+        </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

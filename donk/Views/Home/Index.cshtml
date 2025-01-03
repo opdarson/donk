@@ -30,8 +30,10 @@
                 <p class="product-price">@Html.DisplayFor(m => product.Price)</p>
                 <button class="btn btn-success">加入購物車</button>
             </div>
+
         }
     </div>
+
     <!-- 分頁按鈕 -->
     <div class="pagination-container">
         @Html.PagedListPager(Model, page => Url.Action("Index", new { page, searchString = ViewData["CurrentFilter"] }))
@@ -42,3 +44,5 @@ else
 {
     <p>找不到符合條件的商品。</p>
 }
+
+
