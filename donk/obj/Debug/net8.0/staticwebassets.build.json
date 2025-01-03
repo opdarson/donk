@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y96dqShPG2eP+ob/llJuHh9Kzc8WjZR65v1rfI9PP0k=",
+  "Hash": "8VaBNv5Z6nQysn1sIA8HYdu3KL4cei+zcT6P1jjWs64=",
   "Source": "donk",
   "BasePath": "_content/donk",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "donk\\wwwroot",
       "Source": "donk",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\bundle\\donk.styles.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\bundle\\donk.styles.css",
       "SourceId": "donk",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/donk",
       "RelativePath": "donk#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "xm98Cc0b1A3n36DF0wbgUcmGHZ42H+vJ/xAIJ387Ba0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\bundle\\donk.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\bundle\\donk.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\donk.bundle.scp.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\donk.bundle.scp.css",
       "SourceId": "donk",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/donk",
       "RelativePath": "donk#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,55 @@
       "Integrity": "xm98Cc0b1A3n36DF0wbgUcmGHZ42H+vJ/xAIJ387Ba0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\donk.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\donk.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\css\\all.min.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "css/all.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cmhhdwqdyz",
+      "Integrity": "dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\all.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\css\\product.css",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "css/product#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cfk4spuq19",
+      "Integrity": "aECG6zm/IOASVDWcujtnINg/lyosfz7leYnZHpxqazQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\product.css"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\css\\site.css",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -73,17 +115,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "ihwaykloo5",
+      "Integrity": "Crst+ao7tPPH8C3gPjtDCHiJc2qJaB9TQkY1ElSi2Hg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\favicon.ico",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -101,10 +143,430 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\269614e5-e832-4b72-9ed4-6110c83a6ed6.jpg",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/269614e5-e832-4b72-9ed4-6110c83a6ed6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sildy9917j",
+      "Integrity": "NKR5li8fY9ksbjmSUgazSoi85B9iwjB6oOfvMV+eJSY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\269614e5-e832-4b72-9ed4-6110c83a6ed6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\34033508-6262-4bc1-a854-93e1b616d96b.jpg",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/34033508-6262-4bc1-a854-93e1b616d96b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "snblodfnxh",
+      "Integrity": "SEofKi0KpR4tCBUDZODlYVCDZA4EvbI50gQIthcQ9/k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\34033508-6262-4bc1-a854-93e1b616d96b.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\506926fa-32b8-490e-83d8-a283cbb16698.gif",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/506926fa-32b8-490e-83d8-a283cbb16698#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0zgrvbas0k",
+      "Integrity": "rLmoJO8DhXEiGg9WM2e/Etot1qgPIqhJqjwL2U+d4tM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\506926fa-32b8-490e-83d8-a283cbb16698.gif"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\53061834-5062-41c7-a089-82e1edf9c11e.gif",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/53061834-5062-41c7-a089-82e1edf9c11e#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wdm536wwel",
+      "Integrity": "bERTW2Ak78HVW4SkjZkUceqielmOsN0SxeJFVdMm9sE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\53061834-5062-41c7-a089-82e1edf9c11e.gif"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\62fec5af-38b0-41e3-b0ce-6bb19d314f2d.jpg",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/62fec5af-38b0-41e3-b0ce-6bb19d314f2d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cxl2a9n42z",
+      "Integrity": "gKYsry/4so7WRb2g9AynXW96GKK2ynr8RrMN7JrabxU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\62fec5af-38b0-41e3-b0ce-6bb19d314f2d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\657728645a2ddGXe.gif",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/657728645a2ddGXe#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wdm536wwel",
+      "Integrity": "bERTW2Ak78HVW4SkjZkUceqielmOsN0SxeJFVdMm9sE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\657728645a2ddGXe.gif"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\6e32e1cd-9e7b-44c3-8ed8-c94d1834f923.jpg",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/6e32e1cd-9e7b-44c3-8ed8-c94d1834f923#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xsytbyvbwg",
+      "Integrity": "j0dH2zqWt6q4CtjYyMwfut8mECk9Wz8DF5R9I2pUbbU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\6e32e1cd-9e7b-44c3-8ed8-c94d1834f923.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\770a6752-0e89-4c69-b216-96dc44f22708.jpeg",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/770a6752-0e89-4c69-b216-96dc44f22708#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "teii9escn0",
+      "Integrity": "tY6AYLidNgoHkYDFzZtkI3o1dwksY97vRFvIRTqPEXI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\770a6752-0e89-4c69-b216-96dc44f22708.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\821d2af3-1c42-4911-a973-62ee7b50d5d5.jpg",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/821d2af3-1c42-4911-a973-62ee7b50d5d5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p7il0xd7kq",
+      "Integrity": "i/yNMuobSLrhDm3+22SJQlNngcqwErN2UML/w2zCswY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\821d2af3-1c42-4911-a973-62ee7b50d5d5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\a353d837-49d6-4d89-b669-ccaabc0fd19c.webp",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/a353d837-49d6-4d89-b669-ccaabc0fd19c#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mywu0u0hsu",
+      "Integrity": "XnqLE2dfnnV4XhDO6JPoWFo05+nvVl8q/mDFopTVbYs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\a353d837-49d6-4d89-b669-ccaabc0fd19c.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\b7c463a6-50d7-48a5-8c30-06a7c05cb2b3.jpg",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/b7c463a6-50d7-48a5-8c30-06a7c05cb2b3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f93piiu3mc",
+      "Integrity": "Pak8eNdX31eeULrWEjAeQwyAJF699TwoRFMKCuBK3Lk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\b7c463a6-50d7-48a5-8c30-06a7c05cb2b3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\chaewon.jpg",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/chaewon#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kds0v5x6pf",
+      "Integrity": "qNKbfYCYlzU5nCrHK83MoKRu4XLBsgD53aDEmu/K0+0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\chaewon.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\e7ef68fe-22fb-4b60-a546-65084f719d71.jpg",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/e7ef68fe-22fb-4b60-a546-65084f719d71#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kds0v5x6pf",
+      "Integrity": "qNKbfYCYlzU5nCrHK83MoKRu4XLBsgD53aDEmu/K0+0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\e7ef68fe-22fb-4b60-a546-65084f719d71.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\ed833c6b-e92b-4169-bd1b-d817ca6ffbc8.jpg",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/ed833c6b-e92b-4169-bd1b-d817ca6ffbc8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "duia25roz2",
+      "Integrity": "5aOnWE5n8VtfEyPKeXXY/7Q1usmSc0nRF593GoTSgDM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\ed833c6b-e92b-4169-bd1b-d817ca6ffbc8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\GOOOD.jpg",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/GOOOD#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xsytbyvbwg",
+      "Integrity": "j0dH2zqWt6q4CtjYyMwfut8mECk9Wz8DF5R9I2pUbbU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\GOOOD.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\GUUURA.jpg",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/GUUURA#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sildy9917j",
+      "Integrity": "NKR5li8fY9ksbjmSUgazSoi85B9iwjB6oOfvMV+eJSY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\GUUURA.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\ImportedPhoto.740585069.166589.jpeg",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/ImportedPhoto.740585069.166589#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "teii9escn0",
+      "Integrity": "tY6AYLidNgoHkYDFzZtkI3o1dwksY97vRFvIRTqPEXI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\ImportedPhoto.740585069.166589.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\LAPUPU.jpg",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/LAPUPU#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "duia25roz2",
+      "Integrity": "5aOnWE5n8VtfEyPKeXXY/7Q1usmSc0nRF593GoTSgDM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\LAPUPU.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\XXX.webp",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/XXX#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mywu0u0hsu",
+      "Integrity": "XnqLE2dfnnV4XhDO6JPoWFo05+nvVl8q/mDFopTVbYs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\XXX.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\強悍.jpg",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/強悍#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cxl2a9n42z",
+      "Integrity": "gKYsry/4so7WRb2g9AynXW96GKK2ynr8RrMN7JrabxU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\強悍.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\js\\site.js",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -122,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -164,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -185,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -206,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -227,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -248,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -269,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -290,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -311,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -332,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -353,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -374,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -395,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -416,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -437,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -458,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -479,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -500,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -521,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -542,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -563,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -584,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -605,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -626,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -647,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -668,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -689,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -710,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -731,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -752,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -773,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -794,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -815,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -836,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -857,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -878,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -899,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -920,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -941,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -962,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -983,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1004,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1025,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1046,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1067,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1088,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1109,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1130,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1151,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1172,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1193,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1214,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1235,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1256,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1277,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1298,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "donk",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
       "BasePath": "_content/donk",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1317,12 +1779,180 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "webfonts/fa-brands-400#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kr6peqau0t",
+      "Integrity": "gIRDrmyCBDla3YVD2oqQpguTdvsPh+2OjqN9EJWW2AU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "webfonts/fa-brands-400#[.{fingerprint}]?.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rfefp540hj",
+      "Integrity": "1yNqGb8jy7ICcoDo9R3JnWxFl2ou1g3nM4KwNLGKK2g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "webfonts/fa-regular-400#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8hwpw88keo",
+      "Integrity": "VM9ghve7IfnQcq1JShm0aB+lFt0KFM7lLaAdNlGpE6M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "webfonts/fa-regular-400#[.{fingerprint}]?.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3s7ez9m4mu",
+      "Integrity": "40VtEoO511M3p3Pf0Ue/kI/QLAG0v0hXbYYDppsTy+U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "webfonts/fa-solid-900#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "alr6ukxakq",
+      "Integrity": "0vBZNUCw4zum3iVaVPJy1GbjEUSAaVa+qM/b9+3/yb0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "webfonts/fa-solid-900#[.{fingerprint}]?.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2i6n11vb93",
+      "Integrity": "qnWZhiOjkeYcaQF5Ss6DLj7N0oi1bWCPIb6gQRrMC44=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "webfonts/fa-v4compatibility#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wontxidjva",
+      "Integrity": "MPar9rqkJYJYKHk9bfrR+2N2XQ5auqevb+r7m/zs5aA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "webfonts/fa-v4compatibility#[.{fingerprint}]?.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kizxfigrer",
+      "Integrity": "DOkDPGnccU9fRe+b8X1V5MRrzfrWeZpOkrOOd4G/hr0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webfonts\\fa-v4compatibility.woff2"
     }
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\css\\site.css",
+      "Route": "css/all.min.cmhhdwqdyz.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\css\\all.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1331,7 +1961,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "73890"
         },
         {
           "Name": "Content-Type",
@@ -1339,11 +1969,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 23:49:40 GMT"
+          "Value": "Fri, 13 Dec 2024 14:50:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,21 +1983,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "cmhhdwqdyz"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/all.min.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo="
         }
       ]
     },
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\css\\site.css",
+      "Route": "css/all.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\css\\all.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1376,7 +2006,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "73890"
         },
         {
           "Name": "Content-Type",
@@ -1384,11 +2014,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 23:49:40 GMT"
+          "Value": "Fri, 13 Dec 2024 14:50:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1398,13 +2028,177 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo="
+        }
+      ]
+    },
+    {
+      "Route": "css/product.cfk4spuq19.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\css\\product.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2307"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aECG6zm/IOASVDWcujtnINg/lyosfz7leYnZHpxqazQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 02:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cfk4spuq19"
+        },
+        {
+          "Name": "label",
+          "Value": "css/product.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aECG6zm/IOASVDWcujtnINg/lyosfz7leYnZHpxqazQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/product.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\css\\product.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2307"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aECG6zm/IOASVDWcujtnINg/lyosfz7leYnZHpxqazQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 02:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aECG6zm/IOASVDWcujtnINg/lyosfz7leYnZHpxqazQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Crst+ao7tPPH8C3gPjtDCHiJc2qJaB9TQkY1ElSi2Hg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 07:32:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Crst+ao7tPPH8C3gPjtDCHiJc2qJaB9TQkY1ElSi2Hg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ihwaykloo5.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Crst+ao7tPPH8C3gPjtDCHiJc2qJaB9TQkY1ElSi2Hg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 07:32:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ihwaykloo5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Crst+ao7tPPH8C3gPjtDCHiJc2qJaB9TQkY1ElSi2Hg="
         }
       ]
     },
     {
       "Route": "donk.2eoboujz87.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\donk.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\donk.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1449,7 +2243,7 @@
     },
     {
       "Route": "donk.2eoboujz87.styles.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\bundle\\donk.styles.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\bundle\\donk.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1494,7 +2288,7 @@
     },
     {
       "Route": "donk.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\donk.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\donk.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1531,7 +2325,7 @@
     },
     {
       "Route": "donk.styles.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\bundle\\donk.styles.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\obj\\Debug\\net8.0\\scopedcss\\bundle\\donk.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1568,7 +2362,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1613,7 +2407,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1649,8 +2443,1648 @@
       ]
     },
     {
+      "Route": "images/products/269614e5-e832-4b72-9ed4-6110c83a6ed6.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\269614e5-e832-4b72-9ed4-6110c83a6ed6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1855693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NKR5li8fY9ksbjmSUgazSoi85B9iwjB6oOfvMV+eJSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NKR5li8fY9ksbjmSUgazSoi85B9iwjB6oOfvMV+eJSY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/269614e5-e832-4b72-9ed4-6110c83a6ed6.sildy9917j.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\269614e5-e832-4b72-9ed4-6110c83a6ed6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1855693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NKR5li8fY9ksbjmSUgazSoi85B9iwjB6oOfvMV+eJSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sildy9917j"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/269614e5-e832-4b72-9ed4-6110c83a6ed6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NKR5li8fY9ksbjmSUgazSoi85B9iwjB6oOfvMV+eJSY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/34033508-6262-4bc1-a854-93e1b616d96b.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\34033508-6262-4bc1-a854-93e1b616d96b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SEofKi0KpR4tCBUDZODlYVCDZA4EvbI50gQIthcQ9/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 07:01:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SEofKi0KpR4tCBUDZODlYVCDZA4EvbI50gQIthcQ9/k="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/34033508-6262-4bc1-a854-93e1b616d96b.snblodfnxh.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\34033508-6262-4bc1-a854-93e1b616d96b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SEofKi0KpR4tCBUDZODlYVCDZA4EvbI50gQIthcQ9/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 07:01:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "snblodfnxh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/34033508-6262-4bc1-a854-93e1b616d96b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SEofKi0KpR4tCBUDZODlYVCDZA4EvbI50gQIthcQ9/k="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/506926fa-32b8-490e-83d8-a283cbb16698.0zgrvbas0k.gif",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\506926fa-32b8-490e-83d8-a283cbb16698.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208491"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rLmoJO8DhXEiGg9WM2e/Etot1qgPIqhJqjwL2U+d4tM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 07:34:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0zgrvbas0k"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/506926fa-32b8-490e-83d8-a283cbb16698.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rLmoJO8DhXEiGg9WM2e/Etot1qgPIqhJqjwL2U+d4tM="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/506926fa-32b8-490e-83d8-a283cbb16698.gif",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\506926fa-32b8-490e-83d8-a283cbb16698.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208491"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rLmoJO8DhXEiGg9WM2e/Etot1qgPIqhJqjwL2U+d4tM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 07:34:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rLmoJO8DhXEiGg9WM2e/Etot1qgPIqhJqjwL2U+d4tM="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/53061834-5062-41c7-a089-82e1edf9c11e.gif",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\53061834-5062-41c7-a089-82e1edf9c11e.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bERTW2Ak78HVW4SkjZkUceqielmOsN0SxeJFVdMm9sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:54:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bERTW2Ak78HVW4SkjZkUceqielmOsN0SxeJFVdMm9sE="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/53061834-5062-41c7-a089-82e1edf9c11e.wdm536wwel.gif",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\53061834-5062-41c7-a089-82e1edf9c11e.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bERTW2Ak78HVW4SkjZkUceqielmOsN0SxeJFVdMm9sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:54:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wdm536wwel"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/53061834-5062-41c7-a089-82e1edf9c11e.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bERTW2Ak78HVW4SkjZkUceqielmOsN0SxeJFVdMm9sE="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/62fec5af-38b0-41e3-b0ce-6bb19d314f2d.cxl2a9n42z.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\62fec5af-38b0-41e3-b0ce-6bb19d314f2d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4174174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gKYsry/4so7WRb2g9AynXW96GKK2ynr8RrMN7JrabxU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:43:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cxl2a9n42z"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/62fec5af-38b0-41e3-b0ce-6bb19d314f2d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gKYsry/4so7WRb2g9AynXW96GKK2ynr8RrMN7JrabxU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/62fec5af-38b0-41e3-b0ce-6bb19d314f2d.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\62fec5af-38b0-41e3-b0ce-6bb19d314f2d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4174174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gKYsry/4so7WRb2g9AynXW96GKK2ynr8RrMN7JrabxU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:43:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gKYsry/4so7WRb2g9AynXW96GKK2ynr8RrMN7JrabxU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/657728645a2ddGXe.gif",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\657728645a2ddGXe.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bERTW2Ak78HVW4SkjZkUceqielmOsN0SxeJFVdMm9sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 19 Jul 2024 03:00:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bERTW2Ak78HVW4SkjZkUceqielmOsN0SxeJFVdMm9sE="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/657728645a2ddGXe.wdm536wwel.gif",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\657728645a2ddGXe.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bERTW2Ak78HVW4SkjZkUceqielmOsN0SxeJFVdMm9sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 19 Jul 2024 03:00:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wdm536wwel"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/657728645a2ddGXe.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bERTW2Ak78HVW4SkjZkUceqielmOsN0SxeJFVdMm9sE="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/6e32e1cd-9e7b-44c3-8ed8-c94d1834f923.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\6e32e1cd-9e7b-44c3-8ed8-c94d1834f923.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2989595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j0dH2zqWt6q4CtjYyMwfut8mECk9Wz8DF5R9I2pUbbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:55:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j0dH2zqWt6q4CtjYyMwfut8mECk9Wz8DF5R9I2pUbbU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/6e32e1cd-9e7b-44c3-8ed8-c94d1834f923.xsytbyvbwg.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\6e32e1cd-9e7b-44c3-8ed8-c94d1834f923.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2989595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j0dH2zqWt6q4CtjYyMwfut8mECk9Wz8DF5R9I2pUbbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:55:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xsytbyvbwg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/6e32e1cd-9e7b-44c3-8ed8-c94d1834f923.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j0dH2zqWt6q4CtjYyMwfut8mECk9Wz8DF5R9I2pUbbU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/770a6752-0e89-4c69-b216-96dc44f22708.jpeg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\770a6752-0e89-4c69-b216-96dc44f22708.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "139714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tY6AYLidNgoHkYDFzZtkI3o1dwksY97vRFvIRTqPEXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:53:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tY6AYLidNgoHkYDFzZtkI3o1dwksY97vRFvIRTqPEXI="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/770a6752-0e89-4c69-b216-96dc44f22708.teii9escn0.jpeg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\770a6752-0e89-4c69-b216-96dc44f22708.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "139714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tY6AYLidNgoHkYDFzZtkI3o1dwksY97vRFvIRTqPEXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:53:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "teii9escn0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/770a6752-0e89-4c69-b216-96dc44f22708.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tY6AYLidNgoHkYDFzZtkI3o1dwksY97vRFvIRTqPEXI="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/821d2af3-1c42-4911-a973-62ee7b50d5d5.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\821d2af3-1c42-4911-a973-62ee7b50d5d5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i/yNMuobSLrhDm3+22SJQlNngcqwErN2UML/w2zCswY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 07:06:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i/yNMuobSLrhDm3+22SJQlNngcqwErN2UML/w2zCswY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/821d2af3-1c42-4911-a973-62ee7b50d5d5.p7il0xd7kq.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\821d2af3-1c42-4911-a973-62ee7b50d5d5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i/yNMuobSLrhDm3+22SJQlNngcqwErN2UML/w2zCswY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 07:06:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p7il0xd7kq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/821d2af3-1c42-4911-a973-62ee7b50d5d5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-i/yNMuobSLrhDm3+22SJQlNngcqwErN2UML/w2zCswY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/a353d837-49d6-4d89-b669-ccaabc0fd19c.mywu0u0hsu.webp",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\a353d837-49d6-4d89-b669-ccaabc0fd19c.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XnqLE2dfnnV4XhDO6JPoWFo05+nvVl8q/mDFopTVbYs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:44:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mywu0u0hsu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/a353d837-49d6-4d89-b669-ccaabc0fd19c.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XnqLE2dfnnV4XhDO6JPoWFo05+nvVl8q/mDFopTVbYs="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/a353d837-49d6-4d89-b669-ccaabc0fd19c.webp",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\a353d837-49d6-4d89-b669-ccaabc0fd19c.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XnqLE2dfnnV4XhDO6JPoWFo05+nvVl8q/mDFopTVbYs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:44:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XnqLE2dfnnV4XhDO6JPoWFo05+nvVl8q/mDFopTVbYs="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/b7c463a6-50d7-48a5-8c30-06a7c05cb2b3.f93piiu3mc.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\b7c463a6-50d7-48a5-8c30-06a7c05cb2b3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pak8eNdX31eeULrWEjAeQwyAJF699TwoRFMKCuBK3Lk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 07:59:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f93piiu3mc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/b7c463a6-50d7-48a5-8c30-06a7c05cb2b3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pak8eNdX31eeULrWEjAeQwyAJF699TwoRFMKCuBK3Lk="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/b7c463a6-50d7-48a5-8c30-06a7c05cb2b3.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\b7c463a6-50d7-48a5-8c30-06a7c05cb2b3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pak8eNdX31eeULrWEjAeQwyAJF699TwoRFMKCuBK3Lk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 07:59:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pak8eNdX31eeULrWEjAeQwyAJF699TwoRFMKCuBK3Lk="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/chaewon.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\chaewon.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65513"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qNKbfYCYlzU5nCrHK83MoKRu4XLBsgD53aDEmu/K0+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Jul 2024 02:46:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qNKbfYCYlzU5nCrHK83MoKRu4XLBsgD53aDEmu/K0+0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/chaewon.kds0v5x6pf.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\chaewon.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65513"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qNKbfYCYlzU5nCrHK83MoKRu4XLBsgD53aDEmu/K0+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Jul 2024 02:46:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kds0v5x6pf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/chaewon.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qNKbfYCYlzU5nCrHK83MoKRu4XLBsgD53aDEmu/K0+0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/e7ef68fe-22fb-4b60-a546-65084f719d71.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\e7ef68fe-22fb-4b60-a546-65084f719d71.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65513"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qNKbfYCYlzU5nCrHK83MoKRu4XLBsgD53aDEmu/K0+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:54:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qNKbfYCYlzU5nCrHK83MoKRu4XLBsgD53aDEmu/K0+0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/e7ef68fe-22fb-4b60-a546-65084f719d71.kds0v5x6pf.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\e7ef68fe-22fb-4b60-a546-65084f719d71.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65513"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qNKbfYCYlzU5nCrHK83MoKRu4XLBsgD53aDEmu/K0+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:54:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kds0v5x6pf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/e7ef68fe-22fb-4b60-a546-65084f719d71.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qNKbfYCYlzU5nCrHK83MoKRu4XLBsgD53aDEmu/K0+0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/ed833c6b-e92b-4169-bd1b-d817ca6ffbc8.duia25roz2.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\ed833c6b-e92b-4169-bd1b-d817ca6ffbc8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1955167"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5aOnWE5n8VtfEyPKeXXY/7Q1usmSc0nRF593GoTSgDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "duia25roz2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/ed833c6b-e92b-4169-bd1b-d817ca6ffbc8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5aOnWE5n8VtfEyPKeXXY/7Q1usmSc0nRF593GoTSgDM="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/ed833c6b-e92b-4169-bd1b-d817ca6ffbc8.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\ed833c6b-e92b-4169-bd1b-d817ca6ffbc8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1955167"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5aOnWE5n8VtfEyPKeXXY/7Q1usmSc0nRF593GoTSgDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5aOnWE5n8VtfEyPKeXXY/7Q1usmSc0nRF593GoTSgDM="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/GOOOD.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\GOOOD.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2989595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j0dH2zqWt6q4CtjYyMwfut8mECk9Wz8DF5R9I2pUbbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:06:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j0dH2zqWt6q4CtjYyMwfut8mECk9Wz8DF5R9I2pUbbU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/GOOOD.xsytbyvbwg.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\GOOOD.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2989595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j0dH2zqWt6q4CtjYyMwfut8mECk9Wz8DF5R9I2pUbbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:06:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xsytbyvbwg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/GOOOD.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j0dH2zqWt6q4CtjYyMwfut8mECk9Wz8DF5R9I2pUbbU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/GUUURA.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\GUUURA.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1855693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NKR5li8fY9ksbjmSUgazSoi85B9iwjB6oOfvMV+eJSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Jul 2024 01:11:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NKR5li8fY9ksbjmSUgazSoi85B9iwjB6oOfvMV+eJSY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/GUUURA.sildy9917j.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\GUUURA.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1855693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NKR5li8fY9ksbjmSUgazSoi85B9iwjB6oOfvMV+eJSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Jul 2024 01:11:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sildy9917j"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/GUUURA.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NKR5li8fY9ksbjmSUgazSoi85B9iwjB6oOfvMV+eJSY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/ImportedPhoto.740585069.166589.jpeg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\ImportedPhoto.740585069.166589.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "139714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tY6AYLidNgoHkYDFzZtkI3o1dwksY97vRFvIRTqPEXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 01:24:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tY6AYLidNgoHkYDFzZtkI3o1dwksY97vRFvIRTqPEXI="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/ImportedPhoto.740585069.166589.teii9escn0.jpeg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\ImportedPhoto.740585069.166589.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "139714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tY6AYLidNgoHkYDFzZtkI3o1dwksY97vRFvIRTqPEXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 01:24:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "teii9escn0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/ImportedPhoto.740585069.166589.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tY6AYLidNgoHkYDFzZtkI3o1dwksY97vRFvIRTqPEXI="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/LAPUPU.duia25roz2.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\LAPUPU.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1955167"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5aOnWE5n8VtfEyPKeXXY/7Q1usmSc0nRF593GoTSgDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Jul 2024 01:12:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "duia25roz2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/LAPUPU.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5aOnWE5n8VtfEyPKeXXY/7Q1usmSc0nRF593GoTSgDM="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/LAPUPU.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\LAPUPU.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1955167"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5aOnWE5n8VtfEyPKeXXY/7Q1usmSc0nRF593GoTSgDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Jul 2024 01:12:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5aOnWE5n8VtfEyPKeXXY/7Q1usmSc0nRF593GoTSgDM="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/XXX.mywu0u0hsu.webp",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\XXX.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XnqLE2dfnnV4XhDO6JPoWFo05+nvVl8q/mDFopTVbYs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:42:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mywu0u0hsu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/XXX.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XnqLE2dfnnV4XhDO6JPoWFo05+nvVl8q/mDFopTVbYs="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/XXX.webp",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\XXX.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XnqLE2dfnnV4XhDO6JPoWFo05+nvVl8q/mDFopTVbYs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 01:42:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XnqLE2dfnnV4XhDO6JPoWFo05+nvVl8q/mDFopTVbYs="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/強悍.cxl2a9n42z.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\強悍.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4174174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gKYsry/4so7WRb2g9AynXW96GKK2ynr8RrMN7JrabxU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Jul 2024 01:14:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cxl2a9n42z"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/強悍.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gKYsry/4so7WRb2g9AynXW96GKK2ynr8RrMN7JrabxU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/強悍.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\強悍.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4174174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gKYsry/4so7WRb2g9AynXW96GKK2ynr8RrMN7JrabxU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Jul 2024 01:14:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gKYsry/4so7WRb2g9AynXW96GKK2ynr8RrMN7JrabxU="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1687,7 +4121,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1732,7 +4166,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1769,7 +4203,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1814,7 +4248,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1851,7 +4285,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1896,7 +4330,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1933,7 +4367,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1978,7 +4412,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2015,7 +4449,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2060,7 +4494,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2097,7 +4531,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2142,7 +4576,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2179,7 +4613,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2224,7 +4658,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2261,7 +4695,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2306,7 +4740,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2343,7 +4777,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2388,7 +4822,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2433,7 +4867,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2470,7 +4904,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2507,7 +4941,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2552,7 +4986,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2589,7 +5023,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2634,7 +5068,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2671,7 +5105,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2716,7 +5150,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2753,7 +5187,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2798,7 +5232,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2835,7 +5269,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2872,7 +5306,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2909,7 +5343,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2954,7 +5388,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2999,7 +5433,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3044,7 +5478,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3089,7 +5523,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3126,7 +5560,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3171,7 +5605,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3208,7 +5642,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3245,7 +5679,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3282,7 +5716,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3327,7 +5761,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3372,7 +5806,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3417,7 +5851,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3454,7 +5888,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3499,7 +5933,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3536,7 +5970,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3573,7 +6007,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3610,7 +6044,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3655,7 +6089,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3700,7 +6134,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3737,7 +6171,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3782,7 +6216,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3819,7 +6253,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3864,7 +6298,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3901,7 +6335,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3938,7 +6372,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3983,7 +6417,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4028,7 +6462,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4065,7 +6499,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4110,7 +6544,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4147,7 +6581,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4184,7 +6618,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4229,7 +6663,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4266,7 +6700,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4311,7 +6745,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4356,7 +6790,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4393,7 +6827,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4438,7 +6872,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4475,7 +6909,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4520,7 +6954,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4565,7 +6999,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4602,7 +7036,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4647,7 +7081,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4684,7 +7118,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4721,7 +7155,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4766,7 +7200,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4803,7 +7237,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4848,7 +7282,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4885,7 +7319,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4922,7 +7356,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4967,7 +7401,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5012,7 +7446,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5049,7 +7483,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5094,7 +7528,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5131,7 +7565,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5168,7 +7602,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5205,7 +7639,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5250,7 +7684,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5295,7 +7729,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5340,7 +7774,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5377,7 +7811,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5422,7 +7856,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5467,7 +7901,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5504,7 +7938,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5549,7 +7983,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5594,7 +8028,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5631,7 +8065,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5668,7 +8102,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5713,7 +8147,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5750,7 +8184,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5795,7 +8229,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5832,7 +8266,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5877,7 +8311,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5914,7 +8348,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5951,7 +8385,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5996,7 +8430,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6033,7 +8467,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6078,7 +8512,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6115,7 +8549,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6160,7 +8594,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6205,7 +8639,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6242,7 +8676,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6287,7 +8721,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6324,7 +8758,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6369,7 +8803,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\Joseph\\source\\repos\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6401,6 +8835,662 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "webfonts/fa-brands-400.kr6peqau0t.ttf",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "210792"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gIRDrmyCBDla3YVD2oqQpguTdvsPh+2OjqN9EJWW2AU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:50:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kr6peqau0t"
+        },
+        {
+          "Name": "label",
+          "Value": "webfonts/fa-brands-400.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gIRDrmyCBDla3YVD2oqQpguTdvsPh+2OjqN9EJWW2AU="
+        }
+      ]
+    },
+    {
+      "Route": "webfonts/fa-brands-400.rfefp540hj.woff2",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118684"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1yNqGb8jy7ICcoDo9R3JnWxFl2ou1g3nM4KwNLGKK2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:50:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rfefp540hj"
+        },
+        {
+          "Name": "label",
+          "Value": "webfonts/fa-brands-400.woff2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1yNqGb8jy7ICcoDo9R3JnWxFl2ou1g3nM4KwNLGKK2g="
+        }
+      ]
+    },
+    {
+      "Route": "webfonts/fa-brands-400.ttf",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "210792"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gIRDrmyCBDla3YVD2oqQpguTdvsPh+2OjqN9EJWW2AU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:50:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gIRDrmyCBDla3YVD2oqQpguTdvsPh+2OjqN9EJWW2AU="
+        }
+      ]
+    },
+    {
+      "Route": "webfonts/fa-brands-400.woff2",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118684"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1yNqGb8jy7ICcoDo9R3JnWxFl2ou1g3nM4KwNLGKK2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:50:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1yNqGb8jy7ICcoDo9R3JnWxFl2ou1g3nM4KwNLGKK2g="
+        }
+      ]
+    },
+    {
+      "Route": "webfonts/fa-regular-400.3s7ez9m4mu.woff2",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"40VtEoO511M3p3Pf0Ue/kI/QLAG0v0hXbYYDppsTy+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:50:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3s7ez9m4mu"
+        },
+        {
+          "Name": "label",
+          "Value": "webfonts/fa-regular-400.woff2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-40VtEoO511M3p3Pf0Ue/kI/QLAG0v0hXbYYDppsTy+U="
+        }
+      ]
+    },
+    {
+      "Route": "webfonts/fa-regular-400.8hwpw88keo.ttf",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VM9ghve7IfnQcq1JShm0aB+lFt0KFM7lLaAdNlGpE6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:50:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8hwpw88keo"
+        },
+        {
+          "Name": "label",
+          "Value": "webfonts/fa-regular-400.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VM9ghve7IfnQcq1JShm0aB+lFt0KFM7lLaAdNlGpE6M="
+        }
+      ]
+    },
+    {
+      "Route": "webfonts/fa-regular-400.ttf",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VM9ghve7IfnQcq1JShm0aB+lFt0KFM7lLaAdNlGpE6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:50:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VM9ghve7IfnQcq1JShm0aB+lFt0KFM7lLaAdNlGpE6M="
+        }
+      ]
+    },
+    {
+      "Route": "webfonts/fa-regular-400.woff2",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"40VtEoO511M3p3Pf0Ue/kI/QLAG0v0hXbYYDppsTy+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:50:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-40VtEoO511M3p3Pf0Ue/kI/QLAG0v0hXbYYDppsTy+U="
+        }
+      ]
+    },
+    {
+      "Route": "webfonts/fa-solid-900.2i6n11vb93.woff2",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158220"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qnWZhiOjkeYcaQF5Ss6DLj7N0oi1bWCPIb6gQRrMC44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:50:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2i6n11vb93"
+        },
+        {
+          "Name": "label",
+          "Value": "webfonts/fa-solid-900.woff2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qnWZhiOjkeYcaQF5Ss6DLj7N0oi1bWCPIb6gQRrMC44="
+        }
+      ]
+    },
+    {
+      "Route": "webfonts/fa-solid-900.alr6ukxakq.ttf",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "426112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0vBZNUCw4zum3iVaVPJy1GbjEUSAaVa+qM/b9+3/yb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:50:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "alr6ukxakq"
+        },
+        {
+          "Name": "label",
+          "Value": "webfonts/fa-solid-900.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0vBZNUCw4zum3iVaVPJy1GbjEUSAaVa+qM/b9+3/yb0="
+        }
+      ]
+    },
+    {
+      "Route": "webfonts/fa-solid-900.ttf",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "426112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0vBZNUCw4zum3iVaVPJy1GbjEUSAaVa+qM/b9+3/yb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:50:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0vBZNUCw4zum3iVaVPJy1GbjEUSAaVa+qM/b9+3/yb0="
+        }
+      ]
+    },
+    {
+      "Route": "webfonts/fa-solid-900.woff2",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158220"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qnWZhiOjkeYcaQF5Ss6DLj7N0oi1bWCPIb6gQRrMC44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:50:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qnWZhiOjkeYcaQF5Ss6DLj7N0oi1bWCPIb6gQRrMC44="
+        }
+      ]
+    },
+    {
+      "Route": "webfonts/fa-v4compatibility.kizxfigrer.woff2",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DOkDPGnccU9fRe+b8X1V5MRrzfrWeZpOkrOOd4G/hr0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:50:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kizxfigrer"
+        },
+        {
+          "Name": "label",
+          "Value": "webfonts/fa-v4compatibility.woff2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DOkDPGnccU9fRe+b8X1V5MRrzfrWeZpOkrOOd4G/hr0="
+        }
+      ]
+    },
+    {
+      "Route": "webfonts/fa-v4compatibility.ttf",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MPar9rqkJYJYKHk9bfrR+2N2XQ5auqevb+r7m/zs5aA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:50:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MPar9rqkJYJYKHk9bfrR+2N2XQ5auqevb+r7m/zs5aA="
+        }
+      ]
+    },
+    {
+      "Route": "webfonts/fa-v4compatibility.woff2",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DOkDPGnccU9fRe+b8X1V5MRrzfrWeZpOkrOOd4G/hr0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:50:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DOkDPGnccU9fRe+b8X1V5MRrzfrWeZpOkrOOd4G/hr0="
+        }
+      ]
+    },
+    {
+      "Route": "webfonts/fa-v4compatibility.wontxidjva.ttf",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MPar9rqkJYJYKHk9bfrR+2N2XQ5auqevb+r7m/zs5aA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:50:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wontxidjva"
+        },
+        {
+          "Name": "label",
+          "Value": "webfonts/fa-v4compatibility.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MPar9rqkJYJYKHk9bfrR+2N2XQ5auqevb+r7m/zs5aA="
         }
       ]
     }

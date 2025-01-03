@@ -1,8 +1,44 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IPagedList<donk.Models.Products>
+
+@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+
+@{
+    ViewData["Title"] = "搜尋商品";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<link href="~/css/product.css" rel="stylesheet" />
+
+
+<form asp-action="Index" method="get" class="mb-4">
+    <div class="form-group">
+        <label for="searchString">搜尋商品</label>
+        <input type="text" name="searchString" class="form-control" value="@ViewData["CurrentFilter"]" />
+    </div>
+    <button type="submit" class="btn btn-primary">搜尋</button>
+</form>
+
+@if (Model.Any())
+{
+    <div class="product-grid">
+        @foreach (var product in Model)
+        {
+            <div class="product-card">
+                <img src="@Url.Content(product.ImageData)" alt="@product.Name" class="product-image" />
+                <h3 class="product-name">@product.Name</h3>
+                <p class="product-description">@product.Description</p>
+                <p class="product-price">@Html.DisplayFor(m => product.Price)</p>
+                <button class="btn btn-success">加入購物車</button>
+            </div>
+        }
+    </div>
+    <!-- 分頁按鈕 -->
+    <div class="pagination-container">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page, searchString = ViewData["CurrentFilter"] }))
+    </div>
+
+}
+else
+{
+    <p>找不到符合條件的商品。</p>
+}

@@ -1,4 +1,5 @@
 ﻿using donk.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace donk.Controllers
@@ -43,6 +44,7 @@ namespace donk.Controllers
 
         // GET: /Login/Welcome
         //要新增授權屬性
+
         public IActionResult Welcome()
         {
             return View();

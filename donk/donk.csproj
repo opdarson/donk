@@ -12,6 +12,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="9.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Shared\EditTemplates\" />
   </ItemGroup>
 
 </Project>

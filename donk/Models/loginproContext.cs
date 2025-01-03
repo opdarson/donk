@@ -13,10 +13,24 @@ public partial class loginproContext : DbContext
     {
     }
 
+    public virtual DbSet<Products> Products { get; set; }
+
     public virtual DbSet<Users> Users { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Products>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Products__3214EC0718CBCCEC");
+
+            entity.Property(e => e.Description).IsRequired();
+            entity.Property(e => e.ImageData).IsRequired();
+            entity.Property(e => e.Name)
+                .IsRequired()
+                .HasMaxLength(100);
+            entity.Property(e => e.Price).HasColumnType("decimal(18, 2)");
+        });
+
         modelBuilder.Entity<Users>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__users__3213E83F15E4ED72");
