@@ -11,13 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("donk")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+838035d81fdbc4d27918e6a8dc29b1316ea703d5")]
-[assembly: System.Reflection.AssemblyProductAttribute("donk")]
-[assembly: System.Reflection.AssemblyTitleAttribute("donk")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("X.PagedList.Mvc.Core")]
 
 // 由 MSBuild WriteCodeFragment 類別產生。
 

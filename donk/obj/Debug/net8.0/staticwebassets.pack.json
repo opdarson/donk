@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\0a0ad41b-bdf2-4ee1-afb7-3e3250144f78.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\0a0ad41b-bdf2-4ee1-afb7-3e3250144f78.jpg"
+    },
+    {
       "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\269614e5-e832-4b72-9ed4-6110c83a6ed6.jpg",
       "PackagePath": "staticwebassets\\images\\products\\269614e5-e832-4b72-9ed4-6110c83a6ed6.jpg"
     },
@@ -41,10 +45,6 @@
       "PackagePath": "staticwebassets\\images\\products\\62fec5af-38b0-41e3-b0ce-6bb19d314f2d.jpg"
     },
     {
-      "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\657728645a2ddGXe.gif",
-      "PackagePath": "staticwebassets\\images\\products\\657728645a2ddGXe.gif"
-    },
-    {
       "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\6e32e1cd-9e7b-44c3-8ed8-c94d1834f923.jpg",
       "PackagePath": "staticwebassets\\images\\products\\6e32e1cd-9e7b-44c3-8ed8-c94d1834f923.jpg"
     },
@@ -57,26 +57,6 @@
       "PackagePath": "staticwebassets\\images\\products\\821d2af3-1c42-4911-a973-62ee7b50d5d5.jpg"
     },
     {
-      "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\GOOOD.jpg",
-      "PackagePath": "staticwebassets\\images\\products\\GOOOD.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\GUUURA.jpg",
-      "PackagePath": "staticwebassets\\images\\products\\GUUURA.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\ImportedPhoto.740585069.166589.jpeg",
-      "PackagePath": "staticwebassets\\images\\products\\ImportedPhoto.740585069.166589.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\LAPUPU.jpg",
-      "PackagePath": "staticwebassets\\images\\products\\LAPUPU.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\XXX.webp",
-      "PackagePath": "staticwebassets\\images\\products\\XXX.webp"
-    },
-    {
       "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\a353d837-49d6-4d89-b669-ccaabc0fd19c.webp",
       "PackagePath": "staticwebassets\\images\\products\\a353d837-49d6-4d89-b669-ccaabc0fd19c.webp"
     },
@@ -85,20 +65,12 @@
       "PackagePath": "staticwebassets\\images\\products\\b7c463a6-50d7-48a5-8c30-06a7c05cb2b3.jpg"
     },
     {
-      "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\chaewon.jpg",
-      "PackagePath": "staticwebassets\\images\\products\\chaewon.jpg"
-    },
-    {
       "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\e7ef68fe-22fb-4b60-a546-65084f719d71.jpg",
       "PackagePath": "staticwebassets\\images\\products\\e7ef68fe-22fb-4b60-a546-65084f719d71.jpg"
     },
     {
       "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\ed833c6b-e92b-4169-bd1b-d817ca6ffbc8.jpg",
       "PackagePath": "staticwebassets\\images\\products\\ed833c6b-e92b-4169-bd1b-d817ca6ffbc8.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\強悍.jpg",
-      "PackagePath": "staticwebassets\\images\\products\\強悍.jpg"
     },
     {
       "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\js\\site.js",

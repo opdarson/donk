@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8VaBNv5Z6nQysn1sIA8HYdu3KL4cei+zcT6P1jjWs64=",
+  "Hash": "2p9AiBoAqzfk5mgqJi739jF1dG5Bo/Zz++DljW7mZ8U=",
   "Source": "donk",
   "BasePath": "_content/donk",
   "Mode": "Default",
@@ -143,6 +143,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\0a0ad41b-bdf2-4ee1-afb7-3e3250144f78.jpg",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/0a0ad41b-bdf2-4ee1-afb7-3e3250144f78#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6sa53qs9e8",
+      "Integrity": "Kq9muhyr6iGn8a0kBjalUhrpDzTkwa142Lb/5ap7Fvo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\0a0ad41b-bdf2-4ee1-afb7-3e3250144f78.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\269614e5-e832-4b72-9ed4-6110c83a6ed6.jpg",
       "SourceId": "donk",
       "SourceType": "Discovered",
@@ -246,27 +267,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\62fec5af-38b0-41e3-b0ce-6bb19d314f2d.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\657728645a2ddGXe.gif",
-      "SourceId": "donk",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
-      "BasePath": "_content/donk",
-      "RelativePath": "images/products/657728645a2ddGXe#[.{fingerprint}]?.gif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "wdm536wwel",
-      "Integrity": "bERTW2Ak78HVW4SkjZkUceqielmOsN0SxeJFVdMm9sE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\657728645a2ddGXe.gif"
     },
     {
       "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\6e32e1cd-9e7b-44c3-8ed8-c94d1834f923.jpg",
@@ -374,27 +374,6 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\b7c463a6-50d7-48a5-8c30-06a7c05cb2b3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\chaewon.jpg",
-      "SourceId": "donk",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
-      "BasePath": "_content/donk",
-      "RelativePath": "images/products/chaewon#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "kds0v5x6pf",
-      "Integrity": "qNKbfYCYlzU5nCrHK83MoKRu4XLBsgD53aDEmu/K0+0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\chaewon.jpg"
-    },
-    {
       "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\e7ef68fe-22fb-4b60-a546-65084f719d71.jpg",
       "SourceId": "donk",
       "SourceType": "Discovered",
@@ -435,132 +414,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\ed833c6b-e92b-4169-bd1b-d817ca6ffbc8.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\GOOOD.jpg",
-      "SourceId": "donk",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
-      "BasePath": "_content/donk",
-      "RelativePath": "images/products/GOOOD#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "xsytbyvbwg",
-      "Integrity": "j0dH2zqWt6q4CtjYyMwfut8mECk9Wz8DF5R9I2pUbbU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\GOOOD.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\GUUURA.jpg",
-      "SourceId": "donk",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
-      "BasePath": "_content/donk",
-      "RelativePath": "images/products/GUUURA#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "sildy9917j",
-      "Integrity": "NKR5li8fY9ksbjmSUgazSoi85B9iwjB6oOfvMV+eJSY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\GUUURA.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\ImportedPhoto.740585069.166589.jpeg",
-      "SourceId": "donk",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
-      "BasePath": "_content/donk",
-      "RelativePath": "images/products/ImportedPhoto.740585069.166589#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "teii9escn0",
-      "Integrity": "tY6AYLidNgoHkYDFzZtkI3o1dwksY97vRFvIRTqPEXI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\ImportedPhoto.740585069.166589.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\LAPUPU.jpg",
-      "SourceId": "donk",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
-      "BasePath": "_content/donk",
-      "RelativePath": "images/products/LAPUPU#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "duia25roz2",
-      "Integrity": "5aOnWE5n8VtfEyPKeXXY/7Q1usmSc0nRF593GoTSgDM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\LAPUPU.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\XXX.webp",
-      "SourceId": "donk",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
-      "BasePath": "_content/donk",
-      "RelativePath": "images/products/XXX#[.{fingerprint}]?.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "mywu0u0hsu",
-      "Integrity": "XnqLE2dfnnV4XhDO6JPoWFo05+nvVl8q/mDFopTVbYs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\XXX.webp"
-    },
-    {
-      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\強悍.jpg",
-      "SourceId": "donk",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
-      "BasePath": "_content/donk",
-      "RelativePath": "images/products/強悍#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "cxl2a9n42z",
-      "Integrity": "gKYsry/4so7WRb2g9AynXW96GKK2ynr8RrMN7JrabxU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\強悍.jpg"
     },
     {
       "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\js\\site.js",
@@ -2443,6 +2296,88 @@
       ]
     },
     {
+      "Route": "images/products/0a0ad41b-bdf2-4ee1-afb7-3e3250144f78.6sa53qs9e8.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\0a0ad41b-bdf2-4ee1-afb7-3e3250144f78.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1764024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kq9muhyr6iGn8a0kBjalUhrpDzTkwa142Lb/5ap7Fvo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 05:20:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6sa53qs9e8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/0a0ad41b-bdf2-4ee1-afb7-3e3250144f78.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kq9muhyr6iGn8a0kBjalUhrpDzTkwa142Lb/5ap7Fvo="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/0a0ad41b-bdf2-4ee1-afb7-3e3250144f78.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\0a0ad41b-bdf2-4ee1-afb7-3e3250144f78.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1764024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kq9muhyr6iGn8a0kBjalUhrpDzTkwa142Lb/5ap7Fvo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 05:20:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kq9muhyr6iGn8a0kBjalUhrpDzTkwa142Lb/5ap7Fvo="
+        }
+      ]
+    },
+    {
       "Route": "images/products/269614e5-e832-4b72-9ed4-6110c83a6ed6.jpg",
       "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\269614e5-e832-4b72-9ed4-6110c83a6ed6.jpg",
       "Selectors": [],
@@ -2849,88 +2784,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-gKYsry/4so7WRb2g9AynXW96GKK2ynr8RrMN7JrabxU="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/657728645a2ddGXe.gif",
-      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\657728645a2ddGXe.gif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "37571"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/gif"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bERTW2Ak78HVW4SkjZkUceqielmOsN0SxeJFVdMm9sE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 19 Jul 2024 03:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-bERTW2Ak78HVW4SkjZkUceqielmOsN0SxeJFVdMm9sE="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/657728645a2ddGXe.wdm536wwel.gif",
-      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\657728645a2ddGXe.gif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "37571"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/gif"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bERTW2Ak78HVW4SkjZkUceqielmOsN0SxeJFVdMm9sE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 19 Jul 2024 03:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wdm536wwel"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/657728645a2ddGXe.gif"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-bERTW2Ak78HVW4SkjZkUceqielmOsN0SxeJFVdMm9sE="
         }
       ]
     },
@@ -3345,88 +3198,6 @@
       ]
     },
     {
-      "Route": "images/products/chaewon.jpg",
-      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\chaewon.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "65513"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qNKbfYCYlzU5nCrHK83MoKRu4XLBsgD53aDEmu/K0+0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 17 Jul 2024 02:46:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qNKbfYCYlzU5nCrHK83MoKRu4XLBsgD53aDEmu/K0+0="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/chaewon.kds0v5x6pf.jpg",
-      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\chaewon.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "65513"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qNKbfYCYlzU5nCrHK83MoKRu4XLBsgD53aDEmu/K0+0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 17 Jul 2024 02:46:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "kds0v5x6pf"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/chaewon.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qNKbfYCYlzU5nCrHK83MoKRu4XLBsgD53aDEmu/K0+0="
-        }
-      ]
-    },
-    {
       "Route": "images/products/e7ef68fe-22fb-4b60-a546-65084f719d71.jpg",
       "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\e7ef68fe-22fb-4b60-a546-65084f719d71.jpg",
       "Selectors": [],
@@ -3587,498 +3358,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-5aOnWE5n8VtfEyPKeXXY/7Q1usmSc0nRF593GoTSgDM="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/GOOOD.jpg",
-      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\GOOOD.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2989595"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j0dH2zqWt6q4CtjYyMwfut8mECk9Wz8DF5R9I2pUbbU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Jul 2024 06:06:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j0dH2zqWt6q4CtjYyMwfut8mECk9Wz8DF5R9I2pUbbU="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/GOOOD.xsytbyvbwg.jpg",
-      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\GOOOD.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2989595"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j0dH2zqWt6q4CtjYyMwfut8mECk9Wz8DF5R9I2pUbbU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Jul 2024 06:06:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xsytbyvbwg"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/GOOOD.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-j0dH2zqWt6q4CtjYyMwfut8mECk9Wz8DF5R9I2pUbbU="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/GUUURA.jpg",
-      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\GUUURA.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1855693"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NKR5li8fY9ksbjmSUgazSoi85B9iwjB6oOfvMV+eJSY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 23 Jul 2024 01:11:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-NKR5li8fY9ksbjmSUgazSoi85B9iwjB6oOfvMV+eJSY="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/GUUURA.sildy9917j.jpg",
-      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\GUUURA.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1855693"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NKR5li8fY9ksbjmSUgazSoi85B9iwjB6oOfvMV+eJSY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 23 Jul 2024 01:11:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "sildy9917j"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/GUUURA.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-NKR5li8fY9ksbjmSUgazSoi85B9iwjB6oOfvMV+eJSY="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/ImportedPhoto.740585069.166589.jpeg",
-      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\ImportedPhoto.740585069.166589.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "139714"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tY6AYLidNgoHkYDFzZtkI3o1dwksY97vRFvIRTqPEXI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Jul 2024 01:24:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-tY6AYLidNgoHkYDFzZtkI3o1dwksY97vRFvIRTqPEXI="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/ImportedPhoto.740585069.166589.teii9escn0.jpeg",
-      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\ImportedPhoto.740585069.166589.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "139714"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tY6AYLidNgoHkYDFzZtkI3o1dwksY97vRFvIRTqPEXI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Jul 2024 01:24:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "teii9escn0"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/ImportedPhoto.740585069.166589.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-tY6AYLidNgoHkYDFzZtkI3o1dwksY97vRFvIRTqPEXI="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/LAPUPU.duia25roz2.jpg",
-      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\LAPUPU.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1955167"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5aOnWE5n8VtfEyPKeXXY/7Q1usmSc0nRF593GoTSgDM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 23 Jul 2024 01:12:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "duia25roz2"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/LAPUPU.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-5aOnWE5n8VtfEyPKeXXY/7Q1usmSc0nRF593GoTSgDM="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/LAPUPU.jpg",
-      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\LAPUPU.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1955167"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5aOnWE5n8VtfEyPKeXXY/7Q1usmSc0nRF593GoTSgDM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 23 Jul 2024 01:12:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-5aOnWE5n8VtfEyPKeXXY/7Q1usmSc0nRF593GoTSgDM="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/XXX.mywu0u0hsu.webp",
-      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\XXX.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "38864"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XnqLE2dfnnV4XhDO6JPoWFo05+nvVl8q/mDFopTVbYs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 01:42:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mywu0u0hsu"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/XXX.webp"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-XnqLE2dfnnV4XhDO6JPoWFo05+nvVl8q/mDFopTVbYs="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/XXX.webp",
-      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\XXX.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "38864"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XnqLE2dfnnV4XhDO6JPoWFo05+nvVl8q/mDFopTVbYs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 01:42:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-XnqLE2dfnnV4XhDO6JPoWFo05+nvVl8q/mDFopTVbYs="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/強悍.cxl2a9n42z.jpg",
-      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\強悍.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4174174"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gKYsry/4so7WRb2g9AynXW96GKK2ynr8RrMN7JrabxU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 23 Jul 2024 01:14:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cxl2a9n42z"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/強悍.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gKYsry/4so7WRb2g9AynXW96GKK2ynr8RrMN7JrabxU="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/強悍.jpg",
-      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\強悍.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4174174"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gKYsry/4so7WRb2g9AynXW96GKK2ynr8RrMN7JrabxU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 23 Jul 2024 01:14:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gKYsry/4so7WRb2g9AynXW96GKK2ynr8RrMN7JrabxU="
         }
       ]
     },
