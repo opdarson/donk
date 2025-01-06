@@ -1,4 +1,16 @@
 ﻿@model donk.Models.Usersmetadata
 
-<h2>Welcome</h2>
-<p>You have successfully logged in!</p>
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@* <h1>歡迎, @ViewData["Username"]!</h1> *@
+<p>登入成功  可以開始購物.</p>
+

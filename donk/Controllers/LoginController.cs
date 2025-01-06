@@ -1,7 +1,7 @@
 ﻿using donk.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.AspNetCore.Http; // 用於 Session
 namespace donk.Controllers
 {
     public class LoginController : Controller
@@ -30,6 +30,9 @@ namespace donk.Controllers
 
                 if (existingUser != null)
                 {
+                    // 設置 Session
+                    HttpContext.Session.SetString("Username", existingUser.Username);
+                    TempData["SuccessMessage"] = "Login successful!";
                     return RedirectToAction("Welcome");
                 }
                 else
@@ -42,12 +45,31 @@ namespace donk.Controllers
         }
 
 
+
+
         // GET: /Login/Welcome
         //要新增授權屬性
-
         public IActionResult Welcome()
         {
+            // 確認是否存在 Session
+            var username = HttpContext.Session.GetString("Username");
+            if (string.IsNullOrEmpty(username))
+            {
+                return RedirectToAction("Index"); // 若 Session 不存在，重導至登入頁面
+            }
+
+            ViewData["Username"] = username;
             return View();
+        }
+
+        // GET: /Login/Logout
+        public IActionResult Logout()
+        {
+            // 清除 Session
+            HttpContext.Session.Clear();
+
+
+            return RedirectToAction("Index"); // 重導至登入頁面
         }
 
         public IActionResult Register()
