@@ -14,4 +14,6 @@ public partial class Users
     public string Password { get; set; }
 
     public string Email { get; set; }
+
+    public virtual ICollection<CartItems> CartItems { get; set; } = new List<CartItems>();
 }

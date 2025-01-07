@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\images\\products\\0a0ad41b-bdf2-4ee1-afb7-3e3250144f78.jpg"
     },
     {
+      "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\1f102558-e7e8-41ee-a1e5-606d0f80f898.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\1f102558-e7e8-41ee-a1e5-606d0f80f898.jpg"
+    },
+    {
       "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\269614e5-e832-4b72-9ed4-6110c83a6ed6.jpg",
       "PackagePath": "staticwebassets\\images\\products\\269614e5-e832-4b72-9ed4-6110c83a6ed6.jpg"
     },
@@ -61,8 +65,16 @@
       "PackagePath": "staticwebassets\\images\\products\\a353d837-49d6-4d89-b669-ccaabc0fd19c.webp"
     },
     {
+      "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\b2331816-936c-409c-8588-7d91bd8af7cf.mp4",
+      "PackagePath": "staticwebassets\\images\\products\\b2331816-936c-409c-8588-7d91bd8af7cf.mp4"
+    },
+    {
       "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\b7c463a6-50d7-48a5-8c30-06a7c05cb2b3.jpg",
       "PackagePath": "staticwebassets\\images\\products\\b7c463a6-50d7-48a5-8c30-06a7c05cb2b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\d4c0c14a-1384-4f27-b106-c363c39ae2c1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\d4c0c14a-1384-4f27-b106-c363c39ae2c1.jpg"
     },
     {
       "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\e7ef68fe-22fb-4b60-a546-65084f719d71.jpg",
@@ -71,6 +83,10 @@
     {
       "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\ed833c6b-e92b-4169-bd1b-d817ca6ffbc8.jpg",
       "PackagePath": "staticwebassets\\images\\products\\ed833c6b-e92b-4169-bd1b-d817ca6ffbc8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\f37c412e-1ab3-4fc8-8a3c-8c302ac11eff.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\f37c412e-1ab3-4fc8-8a3c-8c302ac11eff.jpg"
     },
     {
       "Id": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\js\\site.js",

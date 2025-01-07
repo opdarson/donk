@@ -1,0 +1,37 @@
+﻿@model IEnumerable<dynamic>
+
+@{
+    ViewData["Title"] = "購物車";
+}
+
+<h2>購物車</h2>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>商品名稱</th>
+                <th>價格</th>
+                <th>數量</th>
+                <th>小計</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ProductName</td>
+                    <td>NT$@item.ProductPrice</td>
+                    <td>@item.Quantity</td>
+                    <td>NT$@item.Total</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <p><strong>總金額：</strong>NT$@Model.Sum(x => x.Total)</p>
+}
+else
+{
+    <p>您的購物車是空的。</p>
+}

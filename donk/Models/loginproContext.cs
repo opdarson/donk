@@ -13,12 +13,34 @@ public partial class loginproContext : DbContext
     {
     }
 
+    public virtual DbSet<CartItems> CartItems { get; set; }
+
     public virtual DbSet<Products> Products { get; set; }
 
     public virtual DbSet<Users> Users { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<CartItems>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__CartItem__3214EC078E37298E");
+
+            entity.Property(e => e.AddedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+            entity.Property(e => e.Quantity).HasDefaultValue(1);
+
+            entity.HasOne(d => d.Product).WithMany(p => p.CartItems)
+                .HasForeignKey(d => d.ProductId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__CartItems__Produ__5CD6CB2B");
+
+            entity.HasOne(d => d.User).WithMany(p => p.CartItems)
+                .HasForeignKey(d => d.UserId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__CartItems__UserI__5BE2A6F2");
+        });
+
         modelBuilder.Entity<Products>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Products__3214EC0718CBCCEC");

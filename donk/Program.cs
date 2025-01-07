@@ -15,6 +15,20 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true; // 必要 Cookie
 });
 
+builder.Services.AddAuthentication("CookieAuth")
+    .AddCookie("CookieAuth", options =>
+    {
+        options.LoginPath = "/Login"; // 指定未登入時跳轉的登入頁面
+        options.AccessDeniedPath = "/Account/AccessDenied";// 指定無權限時的頁面
+    });
+
+
+
+
+
+
+
+
 builder.Services.AddDbContext<loginproContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -38,6 +52,7 @@ app.UseRouting();
 
 app.UseSession(); // 啟用 Session 中間件
 
+app.UseAuthentication(); // 啟用身份驗證和授權中介軟體
 app.UseAuthorization();
 
 app.MapControllerRoute(

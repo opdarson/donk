@@ -29,7 +29,10 @@
                 <h3 class="product-name">@product.Name</h3>
                 <p class="product-description">@product.Description</p>
                 <p class="product-price">@Html.DisplayFor(m => product.Price)</p>
-                <button class="btn btn-success">加入購物車</button>
+                <form asp-action="AddToCart" method="post">
+                    <input type="hidden" name="productId" value="@product.Id" />
+                    <button type="submit" class="btn btn-success">加入購物車</button>
+                </form>
             </div>
 
         }
