@@ -1,0 +1,34 @@
+﻿@model dynamic
+
+@{
+    ViewData["Title"] = "訂單確認";
+}
+
+<h1>訂單確認</h1>
+
+<p>訂單編號：@Model.Id</p>
+<p>訂單日期：@Model.OrderDate</p>
+<p>總金額：@Model.TotalAmount.ToString("C")</p>
+
+<h3>訂單項目</h3>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>商品名稱</th>
+            <th>數量</th>
+            <th>單價</th>
+            <th>總計</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Quantity</td>
+                <td>@item.UnitPrice.ToString("C")</td>
+                <td>@item.Total.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>

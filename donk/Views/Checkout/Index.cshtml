@@ -1,0 +1,36 @@
+﻿@model IEnumerable<donk.Models.CartItemViewModel>
+
+@{
+    ViewData["Title"] = "結帳";
+}
+
+<h1>結帳</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>商品名稱</th>
+            <th>單價</th>
+            <th>數量</th>
+            <th>總計</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.Price.ToString("C")</td>
+                <td>@item.Quantity</td>
+                <td>@item.Total.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="d-flex justify-content-between">
+    <h3>總金額：@Model.Sum(item => item.Total).ToString("C")</h3>
+    <form asp-action="PlaceOrder" method="post">
+        <button type="submit" class="btn btn-success">確認結帳</button>
+    </form>
+</div>

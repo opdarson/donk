@@ -15,7 +15,7 @@ namespace donk.Controllers
             public HomeController(loginproContext context)
             {
                 _context = context;
-            }
+        }
 
         public async Task<IActionResult> Index(string searchString, int? page)
         {
@@ -37,80 +37,143 @@ namespace donk.Controllers
 
         }
 
-        // 新增到購物車
-        [Authorize]
         [HttpPost]
-
-        public IActionResult AddToCart(int productId)
+        public IActionResult AddToCart(int productId, int quantity = 1)
         {
-            var userIdClaim = User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-            Console.WriteLine(userIdClaim);
-
-            if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out var userId))
+            // 取得當前登入的 Username
+            var username = HttpContext.Session.GetString("Username");
+            if (string.IsNullOrEmpty(username))
             {
-                return Unauthorized("使用者未登入或 ID 無效");
+                return RedirectToAction("Index", "Login"); // 未登入則跳轉至登入頁
             }
 
-            var product = _context.Products.FirstOrDefault(p => p.Id == productId);
-            if (product == null)
+            // 根據 Username 查詢使用者的 UserId
+            var user = _context.Users.SingleOrDefault(u => u.Username == username);
+            if (user == null)
             {
-                return NotFound("商品不存在");
+                return RedirectToAction("Index", "Login"); // 如果找不到使用者，跳轉至登入頁
             }
 
-            var cartItem = _context.CartItems.FirstOrDefault(c => c.UserId == userId && c.ProductId == productId);
+            var userId = user.Id;
 
-            if (cartItem != null)
+            // 檢查是否已經有相同商品在購物車中
+            var existingCartItem = _context.CartItems
+                .SingleOrDefault(ci => ci.UserId == userId && ci.ProductId == productId);
+
+            if (existingCartItem != null)
             {
-                cartItem.Quantity++;
-                _context.Update(cartItem);
+                // 如果已經存在相同商品，則增加數量
+                existingCartItem.Quantity += quantity;
             }
             else
             {
-                cartItem = new CartItems
+                // 如果是新商品，則新增一筆資料
+                var cartItem = new CartItems
                 {
                     UserId = userId,
                     ProductId = productId,
-                    Quantity = 1
+                    Quantity = quantity,
+                    AddedAt = DateTime.Now
                 };
                 _context.CartItems.Add(cartItem);
             }
 
-            _context.SaveChanges();
-
-            return RedirectToAction("Cart");
+            _context.SaveChanges(); // 保存變更到資料庫
+            TempData["SuccessMessage"] = "商品已成功加入購物車！";
+            return RedirectToAction("Index" , "Home");
         }
 
-        // 顯示購物車頁面
-        [Authorize]
-        public IActionResult Cart()
-        {
-            var userIdClaim = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-            if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out var userId))
+       public IActionResult Cart()
+        {
+            var username = HttpContext.Session.GetString("Username");
+            if (string.IsNullOrEmpty(username))
             {
-                return Unauthorized("使用者未登入或 ID 無效");
+                return RedirectToAction("Index", "Login");
             }
 
+            // 根據 Username 查詢使用者的 UserId
+            var user = _context.Users.SingleOrDefault(u => u.Username == username);
+            if (user == null)
+            {
+                return RedirectToAction("Index", "Login"); // 如果找不到使用者，跳轉至登入頁
+            }
+
+            var userId = user.Id;
+
+            // 查詢當前使用者的購物車內容
             var cartItems = _context.CartItems
-                .Where(c => c.UserId == userId)
-                .Select(c => new
+                .Where(ci => ci.UserId == userId)
+                .Select(ci => new CartItemViewModel
                 {
-                    c.Id,
-                    ProductName = c.Product.Name,
-                    ProductPrice = c.Product.Price,
-                    c.Quantity,
-                    Total = c.Quantity * c.Product.Price
+                    Id = ci.Id,
+                    ProductName = ci.Product.Name,
+                    Price = ci.Product.Price,
+                    Quantity = ci.Quantity,
+                    Total = ci.Quantity * ci.Product.Price
                 })
                 .ToList();
 
             return View(cartItems);
         }
+        // 更新購物車商品數量
+        [HttpPost]
+        public IActionResult UpdateCartItemQuantity(int cartItemId, int quantity)
+        {
+            if (quantity < 1)
+            {
+                return RedirectToAction(nameof(Cart));
+            }
+
+            var cartItem = _context.CartItems.SingleOrDefault(ci => ci.Id == cartItemId);
+            if (cartItem != null)
+            {
+                cartItem.Quantity = quantity;
+                _context.SaveChanges();
+            }
+
+            return RedirectToAction(nameof(Cart));
+        }
 
 
+        // 移除購物車商品
+        [HttpPost]
+        public IActionResult RemoveFromCart(int cartItemId)
+        {
+            var cartItem = _context.CartItems.SingleOrDefault(ci => ci.Id == cartItemId);
+            if (cartItem != null)
+            {
+                _context.CartItems.Remove(cartItem);
+                _context.SaveChanges();
+            }
 
+            return RedirectToAction(nameof(Cart));
+        }
 
+        // 清空購物車
+        [HttpPost]
+        public IActionResult ClearCart()
+        {
+            var username = HttpContext.Session.GetString("Username");
+            if (string.IsNullOrEmpty(username))
+            {
+                return RedirectToAction("Index", "Home");
+            }
 
+            // 查找當前使用者
+            var user = _context.Users.SingleOrDefault(u => u.Username == username);
+            if (user == null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            // 刪除購物車中的所有項目
+            var cartItems = _context.CartItems.Where(ci => ci.UserId == user.Id);
+            _context.CartItems.RemoveRange(cartItems);
+            _context.SaveChanges();
+
+            return RedirectToAction(nameof(Cart));
+        }
 
 
 

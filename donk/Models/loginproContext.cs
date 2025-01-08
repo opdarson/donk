@@ -15,6 +15,10 @@ public partial class loginproContext : DbContext
 
     public virtual DbSet<CartItems> CartItems { get; set; }
 
+    public virtual DbSet<OrderItems> OrderItems { get; set; }
+
+    public virtual DbSet<Orders> Orders { get; set; }
+
     public virtual DbSet<Products> Products { get; set; }
 
     public virtual DbSet<Users> Users { get; set; }
@@ -39,6 +43,37 @@ public partial class loginproContext : DbContext
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__CartItems__UserI__5BE2A6F2");
+        });
+
+        modelBuilder.Entity<OrderItems>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__OrderIte__3214EC075EB50CAD");
+
+            entity.Property(e => e.Total).HasColumnType("decimal(18, 2)");
+            entity.Property(e => e.UnitPrice).HasColumnType("decimal(18, 2)");
+
+            entity.HasOne(d => d.Order).WithMany(p => p.OrderItems)
+                .HasForeignKey(d => d.OrderId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__OrderItem__Order__628FA481");
+
+            entity.HasOne(d => d.Product).WithMany(p => p.OrderItems)
+                .HasForeignKey(d => d.ProductId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__OrderItem__Produ__6383C8BA");
+        });
+
+        modelBuilder.Entity<Orders>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Orders__3214EC074B047AE1");
+
+            entity.Property(e => e.OrderDate).HasColumnType("datetime");
+            entity.Property(e => e.TotalAmount).HasColumnType("decimal(18, 2)");
+
+            entity.HasOne(d => d.User).WithMany(p => p.Orders)
+                .HasForeignKey(d => d.UserId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__Orders__UserId__5FB337D6");
         });
 
         modelBuilder.Entity<Products>(entity =>

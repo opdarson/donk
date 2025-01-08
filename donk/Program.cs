@@ -8,6 +8,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// 添加分散式記憶體快取 (Memory Cache)
+builder.Services.AddDistributedMemoryCache();
+
+
+// 配置 Session
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30); // 設置 Session 過期時間
@@ -15,12 +20,12 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true; // 必要 Cookie
 });
 
-builder.Services.AddAuthentication("CookieAuth")
-    .AddCookie("CookieAuth", options =>
-    {
-        options.LoginPath = "/Login"; // 指定未登入時跳轉的登入頁面
-        options.AccessDeniedPath = "/Account/AccessDenied";// 指定無權限時的頁面
-    });
+//builder.Services.AddAuthentication("CookieAuth")
+//    .AddCookie("CookieAuth", options =>
+//    {
+//        options.LoginPath = "/Login"; // 指定未登入時跳轉的登入頁面
+//        options.AccessDeniedPath = "/Account/AccessDenied";// 指定無權限時的頁面
+//    });
 
 
 

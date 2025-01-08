@@ -1,0 +1,43 @@
+﻿@model IEnumerable<donk.Models.OrderViewModel>
+
+@{
+    ViewData["Title"] = "我的訂單";
+}
+
+<h1>我的訂單</h1>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>訂單編號</th>
+                <th>訂單日期</th>
+                <th>總金額</th>
+                <th>訂單項目</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.OrderId</td>
+                    <td>@order.OrderDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>@order.TotalAmount.ToString("C")</td>
+                    <td>
+                        <ul>
+                            @foreach (var item in order.Items)
+                            {
+                                <li>@item.ProductName - 數量: @item.Quantity - 單價: @item.UnitPrice.ToString("C") - 總計: @item.Total.ToString("C")</li>
+                            }
+                        </ul>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="alert alert-info">您尚未有任何訂單。</p>
+}

@@ -32,8 +32,12 @@ namespace donk.Controllers
                 {
                     // 設置 Session
                     HttpContext.Session.SetString("Username", existingUser.Username);
+
+
+
+
                     TempData["SuccessMessage"] = "Login successful!";
-                    return RedirectToAction("Welcome");
+                    return RedirectToAction("Index", "Home");
                 }
                 else
                 {

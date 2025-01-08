@@ -5,19 +5,17 @@ using System.Collections.Generic;
 
 namespace donk.Models;
 
-public partial class Products
+public partial class Orders
 {
     public int Id { get; set; }
 
-    public string Name { get; set; }
+    public int UserId { get; set; }
 
-    public string Description { get; set; }
+    public DateTime OrderDate { get; set; }
 
-    public decimal Price { get; set; }
-
-    public string ImageData { get; set; }
-
-    public virtual ICollection<CartItems> CartItems { get; set; } = new List<CartItems>();
+    public decimal TotalAmount { get; set; }
 
     public virtual ICollection<OrderItems> OrderItems { get; set; } = new List<OrderItems>();
+
+    public virtual Users User { get; set; }
 }

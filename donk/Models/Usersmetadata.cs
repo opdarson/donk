@@ -17,7 +17,12 @@ public partial class Users
 }
 
 public partial class Usersmetadata
+
+
 {
+
+    public int Id { get; set; }
+
     [DisplayName("帳號")]
     [RegularExpression(@"^\S+$", ErrorMessage = "輸入不能包含空格")]
     [Required(ErrorMessage = "請輸入帳號")]
