@@ -1,4 +1,5 @@
 ﻿using donk.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
@@ -15,10 +16,7 @@ namespace donk.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+
 
 
         // 新增商品頁面 (GET)
@@ -28,10 +26,14 @@ namespace donk.Controllers
         }
 
         // 新增商品功能 (POST)
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Products product, IFormFile imageFile)
         {
+
+
+
             if (ModelState.IsValid)
             {
                 if (imageFile != null && imageFile.Length > 0)

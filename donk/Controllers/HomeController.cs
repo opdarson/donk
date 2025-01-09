@@ -118,21 +118,43 @@ namespace donk.Controllers
         }
         // 更新購物車商品數量
         [HttpPost]
-        public IActionResult UpdateCartItemQuantity(int cartItemId, int quantity)
+        public IActionResult UpdateCartItemQuantity(IFormCollection form)
         {
-            if (quantity < 1)
+            var username = HttpContext.Session.GetString("Username");
+            if (string.IsNullOrEmpty(username))
             {
-                return RedirectToAction(nameof(Cart));
+                return RedirectToAction("Index", "Login");
             }
 
-            var cartItem = _context.CartItems.SingleOrDefault(ci => ci.Id == cartItemId);
-            if (cartItem != null)
+            // 根據 Username 查詢使用者的 UserId
+            var user = _context.Users.SingleOrDefault(u => u.Username == username);
+            if (user == null)
             {
-                cartItem.Quantity = quantity;
-                _context.SaveChanges();
+                return RedirectToAction("Index", "Login"); // 如果找不到使用者，跳轉至登入頁
             }
 
-            return RedirectToAction(nameof(Cart));
+            var userId = user.Id;
+
+            // 處理表單中所有的數量變更
+            foreach (var key in form.Keys)
+            {
+                if (key.StartsWith("quantity-"))
+                {
+                    // 提取 cartItemId
+                    var cartItemId = int.Parse(key.Split('-')[1]);
+                    var quantity = int.Parse(form[key]);
+
+                    // 查找購物車項目並更新數量
+                    var cartItem = _context.CartItems.SingleOrDefault(ci => ci.Id == cartItemId && ci.UserId == userId);
+                    if (cartItem != null)
+                    {
+                        cartItem.Quantity = quantity;
+                    }
+                }
+            }
+
+            _context.SaveChanges(); // 保存所有更改
+            return RedirectToAction(nameof(Cart)); // 重定向回購物車頁面
         }
 
 

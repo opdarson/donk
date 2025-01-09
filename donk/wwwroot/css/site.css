@@ -19,12 +19,15 @@ html {
 
 body {
     margin-bottom: 60px;
-
+    background: linear-gradient(to right, #b8e1d3, #a0d8f1);
+/*    background: linear-gradient(to right, #ff6f61, #a0d8f1);*/
 }
 
 /*// footer使用//*/
-<style >
+
+<style>
 footer {
+
     text-align: center; /* 文字與內容置中 */
     padding: 20px 0; /* 上下內邊距 */
     background-color: #f8f9fa; /* 可選的背景色 */
@@ -50,5 +53,9 @@ footer a {
 .footer i {
     font-size: 1.5em; /* 可調整圖標大小 */
 }
-
 </style >
+
+
+ {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Purple to Blue gradient */
+}

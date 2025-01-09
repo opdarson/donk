@@ -36,13 +36,13 @@ namespace donk.Controllers
 
 
 
-                    TempData["SuccessMessage"] = "Login successful!";
+                    TempData["SuccessMessage"] = "登入成功!";
                     return RedirectToAction("Index", "Home");
                 }
                 else
                 {
                     // 帳號或密碼錯誤，顯示錯誤訊息
-                    TempData["ErrorMessage"] = "Invalid username or password.";
+                    TempData["ErrorMessage"] = "帳號或密碼錯誤！";
                 }
             }
             return View(user);
@@ -86,28 +86,28 @@ namespace donk.Controllers
         {
             if (ModelState.IsValid)
             {
-                // 驗證帳號和信箱是否已存在於資料庫
-                var existingUser = _context.Users
-                    .FirstOrDefault(u => u.Username == newUser.Username || u.Email == newUser.Email);
+                // 驗證帳號和信箱是否分別已存在於資料庫
+                var existingUsername = _context.Users.FirstOrDefault(u => u.Username == newUser.Username);
+                var existingEmail = _context.Users.FirstOrDefault(u => u.Email == newUser.Email);
 
-                if (existingUser != null)
+                if (existingUsername != null && existingEmail != null)
                 {
-                    if (existingUser.Email == newUser.Email && existingUser.Username == newUser.Username)
-
-                    {
-                        TempData["ErrorMessage"] = "Username already exists. Please choose another.";
-                    }
-                    else if (existingUser.Email == newUser.Email)
-                    {
-                        TempData["ErrorMessage"] = "Email already exists. Please use another.";
-                    }
-                    else if (existingUser.Username == newUser.Username)
-                    {
-                        TempData["ErrorMessage"] = "Username and Email already exists. Please use another.";
-                    }
-                    return View(newUser); // 回傳表單以保留輸入資料
+                    // 帳號和信箱都存在
+                    TempData["ErrorMessage"] = "帳號和信箱已存在，請選擇其他帳號及信箱。";
+                    return View(newUser);
                 }
-
+                else if (existingEmail != null)
+                {
+                    // 只有信箱存在
+                    TempData["ErrorMessage"] = "信箱已存在，請選擇其他信箱。";
+                    return View(newUser);
+                }
+                else if (existingUsername != null)
+                {
+                    // 只有帳號存在
+                    TempData["ErrorMessage"] = "帳號已存在，請選擇其他帳號。";
+                    return View(newUser);
+                }
 
                 // 新增新用戶到資料庫
                 var userToSave = new Users
@@ -120,10 +120,11 @@ namespace donk.Controllers
                 _context.Users.Add(userToSave);
                 _context.SaveChanges();
 
-                TempData["SuccessMessage"] = "User registered successfully!";
+                TempData["SuccessMessage"] = "用戶註冊成功！";
                 return RedirectToAction("Register");
             }
 
+            // 表單驗證未通過，返回表單頁面
             return View(newUser);
         }
     }
