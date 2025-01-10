@@ -1,17 +1,21 @@
 ﻿using donk.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http; // 用於 Session
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity; // 用於密碼雜湊
+
 namespace donk.Controllers
 {
     public class LoginController : Controller
     {
         private readonly loginproContext _context;
+        private readonly PasswordHasher<Users> _passwordHasher; // 密碼雜湊工具
 
         public LoginController(loginproContext context)
         {
             _context = context;
+            _passwordHasher = new PasswordHasher<Users>();
         }
+
         // GET: /Login
         public IActionResult Index()
         {
@@ -24,42 +28,34 @@ namespace donk.Controllers
         {
             if (ModelState.IsValid)
             {
-                // 檢查用戶名和密碼是否匹配資料庫中的記錄
-                var existingUser = _context.Users
-                    .FirstOrDefault(u => u.Username == user.Username && u.Password == user.Password);
-
+                // 查詢用戶名
+                var existingUser = _context.Users.FirstOrDefault(u => u.Username == user.Username);
                 if (existingUser != null)
                 {
-                    // 設置 Session
-                    HttpContext.Session.SetString("Username", existingUser.Username);
-
-
-
-
-                    TempData["SuccessMessage"] = "登入成功!";
-                    return RedirectToAction("Index", "Home");
+                    // 驗證密碼
+                    var result = _passwordHasher.VerifyHashedPassword(existingUser, existingUser.Password, user.Password);
+                    if (result == PasswordVerificationResult.Success)
+                    {
+                        // 設置 Session
+                        HttpContext.Session.SetString("Username", existingUser.Username);
+                        TempData["SuccessMessage"] = "登入成功!";
+                        return RedirectToAction("Index", "Home");
+                    }
                 }
-                else
-                {
-                    // 帳號或密碼錯誤，顯示錯誤訊息
-                    TempData["ErrorMessage"] = "帳號或密碼錯誤！";
-                }
+
+                // 登入失敗
+                TempData["ErrorMessage"] = "帳號或密碼錯誤！";
             }
             return View(user);
         }
 
-
-
-
         // GET: /Login/Welcome
-        //要新增授權屬性
         public IActionResult Welcome()
         {
-            // 確認是否存在 Session
             var username = HttpContext.Session.GetString("Username");
             if (string.IsNullOrEmpty(username))
             {
-                return RedirectToAction("Index"); // 若 Session 不存在，重導至登入頁面
+                return RedirectToAction("Index");
             }
 
             ViewData["Username"] = username;
@@ -69,24 +65,22 @@ namespace donk.Controllers
         // GET: /Login/Logout
         public IActionResult Logout()
         {
-            // 清除 Session
             HttpContext.Session.Clear();
-
-
-            return RedirectToAction("Index"); // 重導至登入頁面
+            return RedirectToAction("Index");
         }
 
+        // GET: /Login/Register
         public IActionResult Register()
         {
             return View();
         }
 
+        // POST: /Login/Register
         [HttpPost]
         public IActionResult Register(Usersregister newUser)
         {
             if (ModelState.IsValid)
             {
-                // 驗證帳號和信箱是否分別已存在於資料庫
                 var existingUsername = _context.Users.FirstOrDefault(u => u.Username == newUser.Username);
                 var existingEmail = _context.Users.FirstOrDefault(u => u.Email == newUser.Email);
 
@@ -109,11 +103,11 @@ namespace donk.Controllers
                     return View(newUser);
                 }
 
-                // 新增新用戶到資料庫
+                // 雜湊密碼
                 var userToSave = new Users
                 {
                     Username = newUser.Username,
-                    Password = newUser.Password,
+                    Password = _passwordHasher.HashPassword(null, newUser.Password), // 密碼雜湊
                     Email = newUser.Email
                 };
 
@@ -123,8 +117,6 @@ namespace donk.Controllers
                 TempData["SuccessMessage"] = "用戶註冊成功！";
                 return RedirectToAction("Register");
             }
-
-            // 表單驗證未通過，返回表單頁面
             return View(newUser);
         }
     }

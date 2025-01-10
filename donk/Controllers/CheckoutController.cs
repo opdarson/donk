@@ -15,7 +15,7 @@ namespace donk.Controllers
                 _context = context;
             }
 
-            [HttpGet]
+
         [HttpGet]
         public IActionResult Index()
         {

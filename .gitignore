@@ -1,1 +1,30 @@
+# Compiled source
+bin/
+obj/
+out/
+
+# Debug files
+*.pdb
+*.log
+
+# Rider and Visual Studio
+.vscode/
 .vs/
+.idea/
+
+# User-specific files
+*.user
+*.suo
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Publish results
+publish/
+
+# OS generated files
+.DS_Store
+Thumbs.db

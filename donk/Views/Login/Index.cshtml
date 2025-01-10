@@ -3,12 +3,16 @@
 
 <h2 class="text-center mb-4">登入</h2>
 
+
+
 @if (TempData["ErrorMessage"] != null)
 {
-    <div class="alert alert-danger">
+    <div  class="alert alert-danger">
         @TempData["ErrorMessage"]
     </div>
 }
+
+
 
 <form asp-action="Index" method="post" class="w-50 mx-auto">
     <div class="form-group">

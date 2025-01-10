@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ol30rwwOTOQFixx+hyZVTCEf9zSsqxXbbhjnbT1gcyE=",
+  "Hash": "47y6L4dMq6OCMhMbRCTvYBoe4Wi7+eHdOe/PhywPmfY=",
   "Source": "donk",
   "BasePath": "_content/donk",
   "Mode": "Default",
@@ -456,6 +456,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\d4c0c14a-1384-4f27-b106-c363c39ae2c1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\e0c6844c-8c13-4c74-8ab2-c248d29cb6a8.jpg",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "images/products/e0c6844c-8c13-4c74-8ab2-c248d29cb6a8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1tjm1pp0uj",
+      "Integrity": "xUJm3HoRJ6BQHG4VutfkoULfsVWR9AWNWvx2cro/mcc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\e0c6844c-8c13-4c74-8ab2-c248d29cb6a8.jpg"
     },
     {
       "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\e7ef68fe-22fb-4b60-a546-65084f719d71.jpg",
@@ -3627,6 +3648,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-/mKkCd10pMOKnWp4LvRgSSkGtw6YSk5gwnVKs9Gs/aM="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/e0c6844c-8c13-4c74-8ab2-c248d29cb6a8.1tjm1pp0uj.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\e0c6844c-8c13-4c74-8ab2-c248d29cb6a8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134737"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xUJm3HoRJ6BQHG4VutfkoULfsVWR9AWNWvx2cro/mcc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Jan 2025 05:34:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1tjm1pp0uj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/e0c6844c-8c13-4c74-8ab2-c248d29cb6a8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xUJm3HoRJ6BQHG4VutfkoULfsVWR9AWNWvx2cro/mcc="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/e0c6844c-8c13-4c74-8ab2-c248d29cb6a8.jpg",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\images\\products\\e0c6844c-8c13-4c74-8ab2-c248d29cb6a8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134737"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xUJm3HoRJ6BQHG4VutfkoULfsVWR9AWNWvx2cro/mcc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Jan 2025 05:34:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xUJm3HoRJ6BQHG4VutfkoULfsVWR9AWNWvx2cro/mcc="
         }
       ]
     },

@@ -4,6 +4,17 @@
     ViewData["Title"] = "訂單確認";
 }
 
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+
+
+
+
 <h1>訂單確認</h1>
 
 <p>訂單編號：@Model.Id</p>

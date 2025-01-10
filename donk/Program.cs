@@ -23,8 +23,8 @@ builder.Services.AddSession(options =>
 //builder.Services.AddAuthentication("CookieAuth")
 //    .AddCookie("CookieAuth", options =>
 //    {
-//        options.LoginPath = "/Login"; // 指定未登入時跳轉的登入頁面
-//        options.AccessDeniedPath = "/Account/AccessDenied";// 指定無權限時的頁面
+//        options.LoginPath = "/Login/Index"; // 指定未登入時跳轉的登入頁面
+//        options.AccessDeniedPath = "/Login/AccessDenied";// 指定無權限時的頁面
 //    });
 
 
