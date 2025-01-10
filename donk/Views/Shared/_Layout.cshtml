@@ -1,4 +1,6 @@
 ﻿@using Microsoft.AspNetCore.Http;
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +47,8 @@
                         </li>
                     </ul>
                     <ul class="navbar-nav">
-                        @if (ViewContext.HttpContext.Session.GetString("Username") != null)
+                        @* @if (ViewContext.HttpContext.Session.GetString("Username") != null) *@
+                        @if (User.Identity?.IsAuthenticated ?? false)
                         {
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-dark" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

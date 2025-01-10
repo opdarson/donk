@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore.Query;
 
 namespace donk.Controllers
 {
+    [Authorize]
     public class ProductsController : Controller
     {
 
@@ -15,9 +16,6 @@ namespace donk.Controllers
         {
             _context = context;
         }
-
-
-
 
         // 新增商品頁面 (GET)
         public IActionResult Create()
@@ -31,9 +29,6 @@ namespace donk.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Products product, IFormFile imageFile)
         {
-
-
-
             if (ModelState.IsValid)
             {
                 if (imageFile != null && imageFile.Length > 0)
@@ -71,10 +66,5 @@ namespace donk.Controllers
 
             return View(product);
         }
-
-
-
-
-
     }
 }

@@ -1,4 +1,5 @@
 using donk.Models;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,30 +9,30 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// ²K¥[¤À´²¦¡°O¾ĞÅé§Ö¨ú (Memory Cache)
+// æ·»åŠ åˆ†æ•£å¼è¨˜æ†¶é«”å¿«å– (Memory Cache)
 builder.Services.AddDistributedMemoryCache();
 
 
-// °t¸m Session
+// é…ç½® Session
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(30); // ³]¸m Session ¹L´Á®É¶¡
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // è¨­ç½® Session éæœŸæ™‚é–“
     options.Cookie.HttpOnly = true;
-    options.Cookie.IsEssential = true; // ¥²­n Cookie
+    options.Cookie.IsEssential = true; // å¿…è¦ Cookie
 });
 
 //builder.Services.AddAuthentication("CookieAuth")
 //    .AddCookie("CookieAuth", options =>
 //    {
-//        options.LoginPath = "/Login"; // «ü©w¥¼µn¤J®É¸õÂàªºµn¤J­¶­±
-//        options.AccessDeniedPath = "/Account/AccessDenied";// «ü©wµLÅv­­®Éªº­¶­±
+//        options.LoginPath = "/Login"; // æŒ‡å®šæœªç™»å…¥æ™‚è·³è½‰çš„ç™»å…¥é é¢
+//        options.AccessDeniedPath = "/Account/AccessDenied";// æŒ‡å®šç„¡æ¬Šé™æ™‚çš„é é¢
 //    });
 
 
 
-
-
-
+builder.Services.AddAuthentication(SessionAuthenticationHandler.AuthenticationType)
+    .AddScheme<SessionAuthenticationOptions, SessionAuthenticationHandler>(SessionAuthenticationHandler.AuthenticationType, null);
+builder.Services.AddAuthorization();
 
 
 builder.Services.AddDbContext<loginproContext>(
@@ -50,14 +51,14 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseSession(); // ±Ò¥Î Session ¤¤¶¡¥ó
+app.UseSession(); // å•Ÿç”¨ Session ä¸­é–“ä»¶
 
-app.UseAuthentication(); // ±Ò¥Î¨­¥÷ÅçÃÒ©M±ÂÅv¤¤¤¶³nÅé
+app.UseAuthentication(); // å•Ÿç”¨èº«ä»½é©—è­‰å’Œæˆæ¬Šä¸­ä»‹è»Ÿé«”
 app.UseAuthorization();
 
 app.MapControllerRoute(

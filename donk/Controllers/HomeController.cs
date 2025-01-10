@@ -3,71 +3,63 @@ using System.Security.Claims;
 using donk.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using X.PagedList;
+
 
 namespace donk.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
 
-            private readonly loginproContext _context;
+        private readonly loginproContext _context;
 
-            public HomeController(loginproContext context)
-            {
-                _context = context;
+        public HomeController(loginproContext context)
+        {
+            _context = context;
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> Index(string searchString, int? page)
         {
 
-            int pageSize = 4; // ¨C­¶Åã¥Ü 4 µ§¸ê®Æ
-            int pageNumber = page ?? 1; // ·í«e­¶½X¡AÀq»{¬° 1
-            // ¨ú±o©Ò¦³°Ó«~
-            var products = from p in _context.Products
-                           select p;
+            int pageSize = 4; // æ¯é é¡¯ç¤º 4 ç­†è³‡æ–™
+            int pageNumber = page ?? 1; // ç•¶å‰é ç¢¼ï¼Œé»˜èªç‚º 1
+            // å–å¾—æ‰€æœ‰å•†å“
+            var products = _context.Products.AsNoTracking().AsQueryable();
 
-            // ¦pªG¦³·j´M¦r¦ê¡A¹LÂo°Ó«~
+            // å¦‚æžœæœ‰æœå°‹å­—ä¸²ï¼ŒéŽæ¿¾å•†å“
             if (!string.IsNullOrEmpty(searchString))
             {
                 products = products.Where(p => p.Name.Contains(searchString) || p.Description.Contains(searchString));
             }
+
             var pagedProducts = await products.ToPagedListAsync(pageNumber, pageSize);
 
             return View(pagedProducts);
-
         }
 
         [HttpPost]
         public IActionResult AddToCart(int productId, int quantity = 1)
         {
-            // ¨ú±o·í«eµn¤Jªº Username
-            var username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Index", "Login"); // ¥¼µn¤J«h¸õÂà¦Üµn¤J­¶
-            }
+            // å¾ž ClaimsPrincipal ä¸­å–å¾— user è³‡è¨Š
+            var username = User.FindFirst(ClaimTypes.Name)?.Value;
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userId = int.Parse(userIdString!);
 
-            // ®Ú¾Ú Username ¬d¸ß¨Ï¥ÎªÌªº UserId
-            var user = _context.Users.SingleOrDefault(u => u.Username == username);
-            if (user == null)
-            {
-                return RedirectToAction("Index", "Login"); // ¦pªG§ä¤£¨ì¨Ï¥ÎªÌ¡A¸õÂà¦Üµn¤J­¶
-            }
-
-            var userId = user.Id;
-
-            // ÀË¬d¬O§_¤w¸g¦³¬Û¦P°Ó«~¦bÁÊª«¨®¤¤
+            // æª¢æŸ¥æ˜¯å¦å·²ç¶“æœ‰ç›¸åŒå•†å“åœ¨è³¼ç‰©è»Šä¸­
             var existingCartItem = _context.CartItems
                 .SingleOrDefault(ci => ci.UserId == userId && ci.ProductId == productId);
 
             if (existingCartItem != null)
             {
-                // ¦pªG¤w¸g¦s¦b¬Û¦P°Ó«~¡A«h¼W¥[¼Æ¶q
+                // å¦‚æžœå·²ç¶“å­˜åœ¨ç›¸åŒå•†å“ï¼Œå‰‡å¢žåŠ æ•¸é‡
                 existingCartItem.Quantity += quantity;
             }
             else
             {
-                // ¦pªG¬O·s°Ó«~¡A«h·s¼W¤@µ§¸ê®Æ
+                // å¦‚æžœæ˜¯æ–°å•†å“ï¼Œå‰‡æ–°å¢žä¸€ç­†è³‡æ–™
                 var cartItem = new CartItems
                 {
                     UserId = userId,
@@ -78,30 +70,20 @@ namespace donk.Controllers
                 _context.CartItems.Add(cartItem);
             }
 
-            _context.SaveChanges(); // «O¦sÅÜ§ó¨ì¸ê®Æ®w
-            TempData["SuccessMessage"] = "°Ó«~¤w¦¨¥\¥[¤JÁÊª«¨®¡I";
-            return RedirectToAction("Index" , "Home");
+            _context.SaveChanges(); // ä¿å­˜è®Šæ›´åˆ°è³‡æ–™åº«
+            TempData["SuccessMessage"] = "å•†å“å·²æˆåŠŸåŠ å…¥è³¼ç‰©è»Šï¼";
+            return RedirectToAction("Index", "Home");
         }
 
 
-       public IActionResult Cart()
+        public IActionResult Cart()
         {
-            var username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Index", "Login");
-            }
+            // å¾ž ClaimsPrincipal ä¸­å–å¾— user è³‡è¨Š
+            var username = User.FindFirst(ClaimTypes.Name)?.Value;
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userId = int.Parse(userIdString!);
 
-            // ®Ú¾Ú Username ¬d¸ß¨Ï¥ÎªÌªº UserId
-            var user = _context.Users.SingleOrDefault(u => u.Username == username);
-            if (user == null)
-            {
-                return RedirectToAction("Index", "Login"); // ¦pªG§ä¤£¨ì¨Ï¥ÎªÌ¡A¸õÂà¦Üµn¤J­¶
-            }
-
-            var userId = user.Id;
-
-            // ¬d¸ß·í«e¨Ï¥ÎªÌªºÁÊª«¨®¤º®e
+            // æŸ¥è©¢ç•¶å‰ä½¿ç”¨è€…çš„è³¼ç‰©è»Šå…§å®¹
             var cartItems = _context.CartItems
                 .Where(ci => ci.UserId == userId)
                 .Select(ci => new CartItemViewModel
@@ -116,35 +98,25 @@ namespace donk.Controllers
 
             return View(cartItems);
         }
-        // §ó·sÁÊª«¨®°Ó«~¼Æ¶q
+        // æ›´æ–°è³¼ç‰©è»Šå•†å“æ•¸é‡
         [HttpPost]
         public IActionResult UpdateCartItemQuantity(IFormCollection form)
         {
-            var username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Index", "Login");
-            }
+            // å¾ž ClaimsPrincipal ä¸­å–å¾— user è³‡è¨Š
+            var username = User.FindFirst(ClaimTypes.Name)?.Value;
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userId = int.Parse(userIdString!);
 
-            // ®Ú¾Ú Username ¬d¸ß¨Ï¥ÎªÌªº UserId
-            var user = _context.Users.SingleOrDefault(u => u.Username == username);
-            if (user == null)
-            {
-                return RedirectToAction("Index", "Login"); // ¦pªG§ä¤£¨ì¨Ï¥ÎªÌ¡A¸õÂà¦Üµn¤J­¶
-            }
-
-            var userId = user.Id;
-
-            // ³B²zªí³æ¤¤©Ò¦³ªº¼Æ¶qÅÜ§ó
+            // è™•ç†è¡¨å–®ä¸­æ‰€æœ‰çš„æ•¸é‡è®Šæ›´
             foreach (var key in form.Keys)
             {
                 if (key.StartsWith("quantity-"))
                 {
-                    // ´£¨ú cartItemId
+                    // æå– cartItemId
                     var cartItemId = int.Parse(key.Split('-')[1]);
                     var quantity = int.Parse(form[key]);
 
-                    // ¬d§äÁÊª«¨®¶µ¥Ø¨Ã§ó·s¼Æ¶q
+                    // æŸ¥æ‰¾è³¼ç‰©è»Šé …ç›®ä¸¦æ›´æ–°æ•¸é‡
                     var cartItem = _context.CartItems.SingleOrDefault(ci => ci.Id == cartItemId && ci.UserId == userId);
                     if (cartItem != null)
                     {
@@ -153,12 +125,12 @@ namespace donk.Controllers
                 }
             }
 
-            _context.SaveChanges(); // «O¦s©Ò¦³§ó§ï
-            return RedirectToAction(nameof(Cart)); // ­«©w¦V¦^ÁÊª«¨®­¶­±
+            _context.SaveChanges(); // ä¿å­˜æ‰€æœ‰æ›´æ”¹
+            return RedirectToAction(nameof(Cart)); // é‡å®šå‘å›žè³¼ç‰©è»Šé é¢
         }
 
 
-        // ²¾°£ÁÊª«¨®°Ó«~
+        // ç§»é™¤è³¼ç‰©è»Šå•†å“
         [HttpPost]
         public IActionResult RemoveFromCart(int cartItemId)
         {
@@ -172,25 +144,16 @@ namespace donk.Controllers
             return RedirectToAction(nameof(Cart));
         }
 
-        // ²MªÅÁÊª«¨®
+        // æ¸…ç©ºè³¼ç‰©è»Š
         [HttpPost]
         public IActionResult ClearCart()
         {
-            var username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Index", "Home");
-            }
+            // å¾ž ClaimsPrincipal ä¸­å–å¾— user è³‡è¨Š
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userId = int.Parse(userIdString!);
 
-            // ¬d§ä·í«e¨Ï¥ÎªÌ
-            var user = _context.Users.SingleOrDefault(u => u.Username == username);
-            if (user == null)
-            {
-                return RedirectToAction("Index", "Home");
-            }
-
-            // §R°£ÁÊª«¨®¤¤ªº©Ò¦³¶µ¥Ø
-            var cartItems = _context.CartItems.Where(ci => ci.UserId == user.Id);
+            // åˆªé™¤è³¼ç‰©è»Šä¸­çš„æ‰€æœ‰é …ç›®
+            var cartItems = _context.CartItems.Where(ci => ci.UserId == userId);
             _context.CartItems.RemoveRange(cartItems);
             _context.SaveChanges();
 
@@ -200,10 +163,9 @@ namespace donk.Controllers
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-            public IActionResult Error()
-            {
-                return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-            }
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
-
+}

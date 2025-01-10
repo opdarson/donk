@@ -2771,23 +2771,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Joseph\\.nuget\\packages\\": {},
+    "C:\\Users\\YA\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\donk.csproj",
+      "projectUniqueName": "C:\\_Git\\_ZZZJ\\donk\\donk\\donk.csproj",
       "projectName": "donk",
-      "projectPath": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\donk.csproj",
-      "packagesPath": "C:\\Users\\Joseph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\obj\\",
+      "projectPath": "C:\\_Git\\_ZZZJ\\donk\\donk\\donk.csproj",
+      "packagesPath": "C:\\Users\\YA\\.nuget\\packages\\",
+      "outputPath": "C:\\_Git\\_ZZZJ\\donk\\donk\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Joseph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\YA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

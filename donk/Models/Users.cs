@@ -17,5 +17,7 @@ public partial class Users
 
     public virtual ICollection<CartItems> CartItems { get; set; } = new List<CartItems>();
 
+    public virtual ICollection<LoginSession> LoginSession { get; set; } = new List<LoginSession>();
+
     public virtual ICollection<Orders> Orders { get; set; } = new List<Orders>();
 }

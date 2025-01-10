@@ -1,42 +1,32 @@
-﻿using donk.Models;
+using donk.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace donk.Controllers
 {
+    [Authorize]
     public class CheckoutController : Controller
     {
+        private readonly loginproContext _context;
 
+        public CheckoutController(loginproContext context)
+        {
+            _context = context;
+        }
 
-            private readonly loginproContext _context;
-
-            public CheckoutController(loginproContext context)
-            {
-                _context = context;
-            }
-
-            [HttpGet]
         [HttpGet]
         public IActionResult Index()
         {
-            // 檢查用戶是否已登入
-            var username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Index", "Login");
-            }
-
-            // 查詢當前使用者
-            var user = _context.Users.SingleOrDefault(u => u.Username == username);
-            if (user == null)
-            {
-                TempData["ErrorMessage"] = "使用者不存在，請重新登入。";
-                return RedirectToAction("Index", "Login");
-            }
+            // 從 ClaimsPrincipal 中取得 user 資訊
+            var username = User.FindFirst(ClaimTypes.Name)?.Value;
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userId = int.Parse(userIdString!);
 
             // 查詢購物車內容
             var cartItems = _context.CartItems
-                .Where(ci => ci.UserId == user.Id)
+                .Where(ci => ci.UserId == userId)
                 .Select(ci => new CartItemViewModel
                 {
                     Id = ci.Id,
@@ -59,23 +49,13 @@ namespace donk.Controllers
         [HttpPost]
         public IActionResult PlaceOrder()
         {
-            var username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Index", "Login");
-            }
-
-            // 查詢當前使用者
-            var user = _context.Users.SingleOrDefault(u => u.Username == username);
-            if (user == null)
-            {
-                TempData["ErrorMessage"] = "使用者不存在，請重新登入。";
-                return RedirectToAction("Index", "Login");
-            }
+            // 從 ClaimsPrincipal 中取得 user 資訊
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userId = int.Parse(userIdString!);
 
             // 查詢購物車內容並檢查 Product 是否為 null
             var cartItems = _context.CartItems
-                .Where(ci => ci.UserId == user.Id)
+                .Where(ci => ci.UserId == userId)
                 .Include(ci => ci.Product) // 載入相關的 Product
                 .ToList();
 
@@ -97,7 +77,7 @@ namespace donk.Controllers
             // 創建訂單
             var order = new Orders
             {
-                UserId = user.Id,
+                UserId = userId,
                 OrderDate = DateTime.Now,
                 TotalAmount = totalAmount
             };
@@ -129,12 +109,6 @@ namespace donk.Controllers
         [HttpGet]
         public IActionResult OrderConfirmation(int orderId)
         {
-            var username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Index", "Login");
-            }
-
             var order = _context.Orders
                 .Where(o => o.Id == orderId)
                 .Select(o => new
@@ -165,23 +139,13 @@ namespace donk.Controllers
         [HttpGet]
         public IActionResult MyOrders()
         {
-            var username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Index", "Login");
-            }
-
-            // 查詢當前使用者
-            var user = _context.Users.SingleOrDefault(u => u.Username == username);
-            if (user == null)
-            {
-                TempData["ErrorMessage"] = "使用者不存在，請重新登入。";
-                return RedirectToAction("Index", "Login");
-            }
+            // 從 ClaimsPrincipal 中取得 user 資訊
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userId = int.Parse(userIdString!);
 
             // 查詢使用者所有的訂單
             var orders = _context.Orders
-                .Where(o => o.UserId == user.Id)
+                .Where(o => o.UserId == userId)
                 .Select(o => new OrderViewModel
                 {
                     OrderId = o.Id,
