@@ -3,6 +3,8 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc;
+
 
 namespace donk.Models;
 
@@ -24,6 +26,10 @@ public partial class ProductsCreate
     [Display(Name = "價格")]
     [Range(0, double.MaxValue)]
     public decimal Price { get; set; }
+    [Required(ErrorMessage = "請確認有選擇到圖片")]
+   
+    public IFormFile ImageFile { get; set; }
 
-    public string ImageData { get; set; }
+
+
 }

@@ -21,6 +21,7 @@
                 <div class="mb-3">
                     <label for="imageFile" class="form-label">商品圖片</label>
                     <input type="file" name="imageFile" class="form-control" id="imageFile" />
+                    <span asp-validation-for="ImageFile" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
                     <label asp-for="Name" class="form-label"></label>

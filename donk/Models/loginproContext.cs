@@ -15,6 +15,8 @@ public partial class loginproContext : DbContext
 
     public virtual DbSet<CartItems> CartItems { get; set; }
 
+    public virtual DbSet<LoginSession> LoginSession { get; set; }
+
     public virtual DbSet<OrderItems> OrderItems { get; set; }
 
     public virtual DbSet<Orders> Orders { get; set; }
@@ -43,6 +45,26 @@ public partial class loginproContext : DbContext
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__CartItems__UserI__5BE2A6F2");
+        });
+
+        modelBuilder.Entity<LoginSession>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__LoginSes__3214EC073F3FF6D2");
+
+            entity.Property(e => e.Email)
+                .IsRequired()
+                .HasMaxLength(100)
+                .IsUnicode(false);
+            entity.Property(e => e.ExpireAt).HasColumnType("datetime");
+            entity.Property(e => e.Username)
+                .IsRequired()
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+            entity.HasOne(d => d.User).WithMany(p => p.LoginSession)
+                .HasForeignKey(d => d.UserId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_LoginSession_UserId");
         });
 
         modelBuilder.Entity<OrderItems>(entity =>
@@ -85,7 +107,7 @@ public partial class loginproContext : DbContext
             entity.Property(e => e.Name)
                 .IsRequired()
                 .HasMaxLength(100);
-            entity.Property(e => e.Price).HasColumnType("decimal(18, 2)");
+            entity.Property(e => e.Price).HasColumnType("decimal(18, 0)");
         });
 
         modelBuilder.Entity<Users>(entity =>

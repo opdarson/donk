@@ -19,6 +19,10 @@
          "ObjectType": 0
       },
       {
+         "Name": "[dbo].[LoginSession]",
+         "ObjectType": 0
+      },
+      {
          "Name": "[dbo].[OrderItems]",
          "ObjectType": 0
       },

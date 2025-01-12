@@ -4,6 +4,9 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 
+builder.Services.AddAuthentication(SessionAuthenticationHandler.AuthenticationType)
+    .AddScheme<SessionAuthenticationOptions, SessionAuthenticationHandler>(SessionAuthenticationHandler.AuthenticationType, null);
+builder.Services.AddAuthorization();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -19,16 +22,6 @@ builder.Services.AddSession(options =>
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true; // 必要 Cookie
 });
-
-//builder.Services.AddAuthentication("CookieAuth")
-//    .AddCookie("CookieAuth", options =>
-//    {
-//        options.LoginPath = "/Login/Index"; // 指定未登入時跳轉的登入頁面
-//        options.AccessDeniedPath = "/Login/AccessDenied";// 指定無權限時的頁面
-//    });
-
-
-
 
 
 

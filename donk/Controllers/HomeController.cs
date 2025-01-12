@@ -7,6 +7,7 @@ using X.PagedList;
 
 namespace donk.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
 
@@ -16,7 +17,7 @@ namespace donk.Controllers
             {
                 _context = context;
         }
-
+        [AllowAnonymous]
         public async Task<IActionResult> Index(string searchString, int? page)
         {
 
@@ -40,21 +41,11 @@ namespace donk.Controllers
         [HttpPost]
         public IActionResult AddToCart(int productId, int quantity = 1)
         {
-            // 取得當前登入的 Username
-            var username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Index", "Login"); // 未登入則跳轉至登入頁
-            }
+            var username = User.FindFirst(ClaimTypes.Name)?.Value;
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userId = int.Parse(userIdString!);
 
-            // 根據 Username 查詢使用者的 UserId
-            var user = _context.Users.SingleOrDefault(u => u.Username == username);
-            if (user == null)
-            {
-                return RedirectToAction("Index", "Login"); // 如果找不到使用者，跳轉至登入頁
-            }
 
-            var userId = user.Id;
 
             // 檢查是否已經有相同商品在購物車中
             var existingCartItem = _context.CartItems
@@ -86,20 +77,10 @@ namespace donk.Controllers
 
        public IActionResult Cart()
         {
-            var username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Index", "Login");
-            }
+            var username = User.FindFirst(ClaimTypes.Name)?.Value;
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userId = int.Parse(userIdString!);
 
-            // 根據 Username 查詢使用者的 UserId
-            var user = _context.Users.SingleOrDefault(u => u.Username == username);
-            if (user == null)
-            {
-                return RedirectToAction("Index", "Login"); // 如果找不到使用者，跳轉至登入頁
-            }
-
-            var userId = user.Id;
 
             // 查詢當前使用者的購物車內容
             var cartItems = _context.CartItems
@@ -120,20 +101,10 @@ namespace donk.Controllers
         [HttpPost]
         public IActionResult UpdateCartItemQuantity(IFormCollection form)
         {
-            var username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Index", "Login");
-            }
+            var username = User.FindFirst(ClaimTypes.Name)?.Value;
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userId = int.Parse(userIdString!);
 
-            // 根據 Username 查詢使用者的 UserId
-            var user = _context.Users.SingleOrDefault(u => u.Username == username);
-            if (user == null)
-            {
-                return RedirectToAction("Index", "Login"); // 如果找不到使用者，跳轉至登入頁
-            }
-
-            var userId = user.Id;
 
             // 處理表單中所有的數量變更
             foreach (var key in form.Keys)
@@ -144,11 +115,20 @@ namespace donk.Controllers
                     var cartItemId = int.Parse(key.Split('-')[1]);
                     var quantity = int.Parse(form[key]);
 
-                    // 查找購物車項目並更新數量
+                    // 查找購物車項目
                     var cartItem = _context.CartItems.SingleOrDefault(ci => ci.Id == cartItemId && ci.UserId == userId);
                     if (cartItem != null)
                     {
-                        cartItem.Quantity = quantity;
+                        if (quantity > 0)
+                        {
+                            // 更新數量
+                            cartItem.Quantity = quantity;
+                        }
+                        else
+                        {
+                            // 如果數量為 0，刪除該商品
+                            _context.CartItems.Remove(cartItem);
+                        }
                     }
                 }
             }
@@ -162,13 +142,21 @@ namespace donk.Controllers
         [HttpPost]
         public IActionResult RemoveFromCart(int cartItemId)
         {
-            var cartItem = _context.CartItems.SingleOrDefault(ci => ci.Id == cartItemId);
+            var username = User.FindFirst(ClaimTypes.Name)?.Value;
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userId = int.Parse(userIdString!);
+
+            // 查找指定的購物車項目
+            var cartItem = _context.CartItems.SingleOrDefault(ci => ci.Id == cartItemId && ci.UserId == userId);
+
             if (cartItem != null)
             {
+                // 刪除指定項目
                 _context.CartItems.Remove(cartItem);
                 _context.SaveChanges();
             }
 
+            // 重定向回購物車頁面
             return RedirectToAction(nameof(Cart));
         }
 
@@ -176,21 +164,13 @@ namespace donk.Controllers
         [HttpPost]
         public IActionResult ClearCart()
         {
-            var username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Index", "Home");
-            }
+            var username = User.FindFirst(ClaimTypes.Name)?.Value;
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userId = int.Parse(userIdString!);
 
-            // 查找當前使用者
-            var user = _context.Users.SingleOrDefault(u => u.Username == username);
-            if (user == null)
-            {
-                return RedirectToAction("Index", "Home");
-            }
 
             // 刪除購物車中的所有項目
-            var cartItems = _context.CartItems.Where(ci => ci.UserId == user.Id);
+            var cartItems = _context.CartItems.Where(ci => ci.UserId == userId);
             _context.CartItems.RemoveRange(cartItems);
             _context.SaveChanges();
 

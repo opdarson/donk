@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore.Query;
 
 namespace donk.Controllers
 {
+    [Authorize]
     public class ProductsController : Controller
     {
 
@@ -25,22 +26,20 @@ namespace donk.Controllers
             return View();
         }
 
+
+
         // 新增商品功能 (POST)
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Products product, IFormFile imageFile)
+        public async Task<IActionResult> Create(ProductsCreate product)
         {
-
-
-
             if (ModelState.IsValid)
             {
-                if (imageFile != null && imageFile.Length > 0)
-                {
+
                     // 設定圖片儲存路徑
                     var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/products");
-                    var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName); // 使用 GUID 確保檔名唯一
+                    var fileName = Guid.NewGuid().ToString() + Path.GetExtension(product.ImageFile.FileName); // 使用 GUID 確保檔名唯一
                     var filePath = Path.Combine(uploadsFolder, fileName);
 
                     // 確保目錄存在
@@ -52,15 +51,23 @@ namespace donk.Controllers
                     // 儲存檔案到指定位置
                     using (var fileStream = new FileStream(filePath, FileMode.Create))
                     {
-                        await imageFile.CopyToAsync(fileStream);
+                        await product.ImageFile.CopyToAsync(fileStream);
                     }
 
                     // 設定資料庫中的圖片路徑
-                    product.ImageData = $"/images/products/{fileName}";
-                }
+                    var imagePath = $"/images/products/{fileName}";
+
 
                 // 儲存商品到資料庫
-                _context.Products.Add(product);
+                var newProduct = new Products
+                {
+                    Name = product.Name,
+                    Description = product.Description,
+                    Price = product.Price,
+                    ImageData = imagePath
+                };
+
+                _context.Products.Add(newProduct);
                 await _context.SaveChangesAsync();
 
                 // 設置成功訊息
@@ -71,6 +78,7 @@ namespace donk.Controllers
 
             return View(product);
         }
+
 
 
 
