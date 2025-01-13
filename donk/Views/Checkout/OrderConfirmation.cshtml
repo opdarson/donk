@@ -19,7 +19,7 @@
 
 <p>訂單編號：@Model.Id</p>
 <p>訂單日期：@Model.OrderDate</p>
-<p>總金額：@Model.TotalAmount.ToString("C")</p>
+<p>總金額：@Model.TotalAmount.ToString("C0")</p>
 
 <h3>訂單項目</h3>
 <table class="table table-bordered">
@@ -37,8 +37,8 @@
             <tr>
                 <td>@item.Name</td>
                 <td>@item.Quantity</td>
-                <td>@item.UnitPrice.ToString("C")</td>
-                <td>@item.Total.ToString("C")</td>
+                <td>@item.UnitPrice.ToString("C0")</td>
+                <td>@item.Total.ToString("C0")</td>
             </tr>
         }
     </tbody>

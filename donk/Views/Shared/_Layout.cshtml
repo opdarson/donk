@@ -8,8 +8,9 @@
     <title>@ViewData["Title"] - donk</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-	<link rel="stylesheet" href="~/donk.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/donk.styles.css" asp-append-version="true" />
     <link href="/css/all.min.css" rel="stylesheet">
+    <script src="~/lib/jquery/jquery.min.js"></script>
 
 </head>
 <body class="bg-light text-dark">
@@ -18,7 +19,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">購物網練習</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
@@ -27,11 +28,11 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">首頁</a>
                         </li>
 
-                            @if (ViewContext.HttpContext.Session.GetString("Username") == null)
+                        @if (!(User.Identity?.IsAuthenticated ?? false))
                         {
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Register">註冊</a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Register">註冊</a>
+                            </li>
                         }
 
 
@@ -49,7 +50,7 @@
                         {
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-dark" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    歡迎,@User.FindFirst(ClaimTypes.Name)?.Value
+                                    @User.FindFirst(ClaimTypes.Name)?.Value
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
                                     <li><a class="dropdown-item" asp-controller="Checkout" asp-action="MyOrders">我的訂單</a></li>

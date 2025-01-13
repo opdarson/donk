@@ -15,6 +15,12 @@
     </div>
 }
 
+
+
+
+
+
+
 <link href="~/css/product.css" rel="stylesheet" />
 
 
@@ -45,6 +51,7 @@
                 <p class="product-price">@Html.DisplayFor(m => product.Price)</p>
                 <form asp-action="AddToCart" method="post">
                     <input type="hidden" name="productId" value="@product.Id" />
+                    <input type="hidden" name="currentPage" value="@ViewBag.CurrentPage" /> <!-- 傳遞目前頁碼 -->
                     <button type="submit" class="btn btn-success">加入購物車</button>
                 </form>
             </div>
@@ -54,7 +61,7 @@
 
     <!-- 分頁按鈕 -->
     <div class="pagination-container">
-        @Html.PagedListPager(Model, page => Url.Action("Index", new { page, searchString = ViewData["CurrentFilter"] }))
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page , searchString = ViewData["CurrentFilter"], }))
     </div>
 
 }

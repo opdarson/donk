@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>leqx85alny</Fingerprint>
-      <Integrity>E+BkYrymhgurSFl0NJgGsrE6GmdmFT/VTJHkDhJApdI=</Integrity>
+      <Fingerprint>tt0lsywhdn</Fingerprint>
+      <Integrity>j2T8xMBGsR3xPos/GV3AzlPBhM/Ze1fmbhCDg9IrlZw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -287,6 +287,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\770a6752-0e89-4c69-b216-96dc44f22708.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\793a6804-bf94-418c-9196-8bae5a60f2f5.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>donk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/donk</BasePath>
+      <RelativePath>images/products/793a6804-bf94-418c-9196-8bae5a60f2f5.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>d6esk7lda4</Fingerprint>
+      <Integrity>Oykh7cSdmevydPqDZeaQoLWoNWcuDTbnWDiw5+xoKQw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\793a6804-bf94-418c-9196-8bae5a60f2f5.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\821d2af3-1c42-4911-a973-62ee7b50d5d5.jpg'))">
       <SourceType>Package</SourceType>

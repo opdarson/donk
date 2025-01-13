@@ -1,15 +1,15 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
@@ -20,16 +20,14 @@ html {
 body {
     margin-bottom: 60px;
     background: linear-gradient(to right, #b8e1d3, #a0d8f1);
-/*    background: linear-gradient(to right, #ff6f61, #a0d8f1);*/
+
 }
 
 /*// footer使用//*/
 
-<style>
 footer {
-
     text-align: center; /* 文字與內容置中 */
-    padding: 20px 0; /* 上下內邊距 */
+    background: linear-gradient(to right, #1c92d2, #f2fcfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-color: #f8f9fa; /* 可選的背景色 */
 }
 
@@ -53,9 +51,58 @@ footer a {
 .footer i {
     font-size: 1.5em; /* 可調整圖標大小 */
 }
-</style >
 
+/* Navbar */
 
- {
-    background: linear-gradient(to right, #6a11cb, #2575fc); /* Purple to Blue gradient */
+.navbar {
+    background: linear-gradient(to right, #50c9c3, #96deda); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #f8f9fa !important;
+    font-size: 1rem;
+    margin-right: 1rem;
+    transition: color 0.3s;
+}
+
+    .nav-link:hover {
+        color: #d1d8e0 !important;
+    }
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.dropdown-menu {
+    background-color: #6c757d;
+    border: none;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+    .dropdown-item:hover {
+        background-color: #495057;
+    }
+
+.nav-item .fa-cart-shopping {
+    color: #ffd700;
+    transition: transform 0.3s;
+}
+
+    .nav-item .fa-cart-shopping:hover {
+        transform: scale(1.2);
+    }

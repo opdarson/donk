@@ -23,12 +23,12 @@
                 <tr>
                     <td>@order.OrderId</td>
                     <td>@order.OrderDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
-                    <td>@order.TotalAmount.ToString("C")</td>
+                    <td>@order.TotalAmount.ToString("C0")</td>
                     <td>
                         <ul>
                             @foreach (var item in order.Items)
                             {
-                                <li>@item.ProductName - 數量: @item.Quantity - 單價: @item.UnitPrice.ToString("C") - 總計: @item.Total.ToString("C")</li>
+                                <li>@item.ProductName - 數量: @item.Quantity - 單價: @item.UnitPrice.ToString("C0") - 總計: @item.Total.ToString("C0")</li>
                             }
                         </ul>
                     </td>

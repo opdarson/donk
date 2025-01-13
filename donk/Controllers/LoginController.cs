@@ -87,18 +87,7 @@ namespace donk.Controllers
             return View(user);
         }
 
-        // GET: /Login/Welcome
-        public IActionResult Welcome()
-        {
-            var username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Index");
-            }
 
-            ViewData["Username"] = username;
-            return View();
-        }
 
         [Authorize]
         // GET: /Login/Logout

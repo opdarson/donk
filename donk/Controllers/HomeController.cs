@@ -33,13 +33,15 @@ namespace donk.Controllers
                 products = products.Where(p => p.Name.Contains(searchString) || p.Description.Contains(searchString));
             }
             var pagedProducts = await products.ToPagedListAsync(pageNumber, pageSize);
+            ViewBag.CurrentPage = pageNumber; // 將目前頁碼存入 ViewBag，供前端使用
+
 
             return View(pagedProducts);
 
         }
 
         [HttpPost]
-        public IActionResult AddToCart(int productId, int quantity = 1)
+        public IActionResult AddToCart(int productId, int quantity = 1, int currentPage = 1)
         {
             var username = User.FindFirst(ClaimTypes.Name)?.Value;
             var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
@@ -70,8 +72,11 @@ namespace donk.Controllers
             }
 
             _context.SaveChanges(); // 保存變更到資料庫
+
+
+
             TempData["SuccessMessage"] = "商品已成功加入購物車！";
-            return RedirectToAction("Index" , "Home");
+            return RedirectToAction("Index", new { page = currentPage });
         }
 
 

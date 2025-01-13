@@ -61,6 +61,10 @@
             "X.PagedList.Mvc.Core": {
               "target": "Package",
               "version": "[9.1.2, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.7.1, )"
             }
           },
           "imports": [
