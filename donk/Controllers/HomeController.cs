@@ -35,6 +35,18 @@ namespace donk.Controllers
             var pagedProducts = await products.ToPagedListAsync(pageNumber, pageSize);
             ViewBag.CurrentPage = pageNumber; // 將目前頁碼存入 ViewBag，供前端使用
 
+            //if (User.Identity.IsAuthenticated)
+            //{
+            //    var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            //    var userId = int.Parse(userIdString!);
+            //    ViewBag.CartItemCount = _context.CartItems.Where(ci => ci.UserId == userId).Sum(ci => ci.Quantity);
+            //}
+            //else
+            //{
+            //    ViewBag.CartItemCount = 0;
+            //}
+
+
 
             return View(pagedProducts);
 
@@ -75,12 +87,39 @@ namespace donk.Controllers
 
 
 
-            TempData["SuccessMessage"] = "商品已成功加入購物車！";
-            return RedirectToAction("Index", new { page = currentPage });
+            // 計算購物車商品總數量
+            var cartItemCount = _context.CartItems.Where(ci => ci.UserId == userId).Sum(ci => ci.Quantity);
+
+            return Json(new { success = true, cartItemCount });
+
+            //TempData["SuccessMessage"] = "商品已成功加入購物車！";
+            //return RedirectToAction("Index", new { page = currentPage });
         }
 
 
-       public IActionResult Cart()
+        //AJAX 同步用戶購物車數量
+        [HttpGet]
+        public IActionResult GetCartItemCount()
+        {
+            if (User.Identity?.IsAuthenticated ?? false)
+            {
+                var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                var userId = int.Parse(userIdString!);
+
+                var cartItemCount = _context.CartItems
+                    .Where(ci => ci.UserId == userId)
+                    .Sum(ci => ci.Quantity);
+
+                return Json(new { count = cartItemCount });
+            }
+
+            return Json(new { count = 0 });
+        }
+
+
+
+
+        public IActionResult Cart()
         {
             var username = User.FindFirst(ClaimTypes.Name)?.Value;
             var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;

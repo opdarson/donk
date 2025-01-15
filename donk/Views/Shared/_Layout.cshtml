@@ -42,7 +42,11 @@
 
 
                         <li class="nav-item ms-auto">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Cart"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Cart">
+                                <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                                <span id="cart-item-count" class="badge bg-danger"></span>
+
+                            </a>
                         </li>
                     </ul>
                     <ul class="navbar-nav">
@@ -98,3 +102,22 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+<script>
+    function updateCartItemCount() {
+        $.ajax({
+            url: '/Home/GetCartItemCount', // 獲取購物車數量的 API 端點
+            method: 'GET',
+            success: function (response) {
+                $('#cart-item-count').text(response.count); // 更新購物車數量
+            },
+            error: function () {
+                console.error('無法獲取購物車商品數量');
+            }
+        });
+    }
+
+    $(document).ready(function () {
+        updateCartItemCount(); // 頁面加載時更新購物車數量
+    });
+</script>

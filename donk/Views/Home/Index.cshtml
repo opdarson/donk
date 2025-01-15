@@ -39,6 +39,45 @@
     </div>
 </form>
 
+<div id="success-modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <p>🎉 商品已成功加入購物車！</p>
+    </div>
+</div>
+
+
+<style>
+
+    /* 整體彈跳視窗 */
+    .modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+        display: none; /* 預設隱藏 */
+    }
+
+    /* 彈跳視窗內容樣式 */
+    .modal-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        animation: slideDown 0.3s ease, fadeOut 2s ease 1.5s forwards;
+    }
+
+        /* 彈跳文字的樣式 */
+        .modal-content p {
+            margin: 0;
+            font-size: 16px;
+            color: #4CAF50; /* 成功的綠色 */
+            font-weight: bold;
+        }
+
+</style>
+
 @if (Model.Any())
 {
     <div class="product-grid">
@@ -49,11 +88,12 @@
                 <h3 class="product-name">@product.Name</h3>
                 <p class="product-description">@product.Description</p>
                 <p class="product-price">@Html.DisplayFor(m => product.Price)</p>
-                <form asp-action="AddToCart" method="post">
+                @* <form asp-action="AddToCart" method="post"> *@
                     <input type="hidden" name="productId" value="@product.Id" />
                     <input type="hidden" name="currentPage" value="@ViewBag.CurrentPage" /> <!-- 傳遞目前頁碼 -->
-                    <button type="submit" class="btn btn-success">加入購物車</button>
-                </form>
+                    @* <button type="submit" class="btn btn-success">加入購物車</button> *@
+                    <button class="btn btn-success add-to-cart-btn" data-product-id="@product.Id">加入購物車</button>
+                @* </form> *@
             </div>
 
         }
@@ -70,4 +110,37 @@ else
     <p>找不到符合條件的商品。</p>
 }
 
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.add-to-cart-btn').click(function () {
+            var button = $(this);
+            var productId = button.data('product-id');
+
+            $.ajax({
+                url: '/Home/AddToCart',
+                method: 'POST',
+                data: { productId: productId, quantity: 1 },
+                success: function (response) {
+                    if (response.success) {
+                        // 更新購物車數量
+                        $('#cart-item-count').text(response.cartItemCount);
+
+                        // 顯示成功提示視窗
+                        $('#success-modal').fadeIn();
+                        setTimeout(function () {
+                            $('#success-modal').fadeOut();
+                        }, 600);
+                    } else {
+                        alert('加入購物車失敗，請稍後再試！');
+                    }
+                },
+                error: function () {
+                    alert('發生錯誤，請稍後再試！');
+                }
+            });
+        });
+    });
+</script>
 
