@@ -9,49 +9,52 @@
 @if (Model != null && Model.Any())
 {
 
-        <table class="table table-bordered">
-            <thead>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>商品名稱</th>
+                <th>單價</th>
+                <th>數量</th>
+                <th>總計</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
                 <tr>
-                    <th>商品名稱</th>
-                    <th>單價</th>
-                    <th>數量</th>
-                    <th>總計</th>
-                    <th>操作</th>
+                    <td>@item.ProductName</td>
+                    <td>@item.Price.ToString("C0")</td>
+                    <td>
+                        <!-- 使用表單更新數量 -->
+                        <form method="post" action="@Url.Action("UpdateCartItemQuantity", "Home")">
+                            <input type="number" name="quantity" value="@item.Quantity" min="0" class="form-control" style="width: 60px;" onchange="this.form.submit()" />
+                            <input type="hidden" name="cartItemId" value="@item.Id" />
+                        </form>
+                    </td>
+                    <td>@item.Total.ToString("C0")</td>
+                    <td>
+                        <!-- 移除商品按鈕 -->
+                        <form asp-action="RemoveFromCart" method="post">
+                            <input type="hidden" name="cartItemId" value="@item.Id" />
+                            <button type="submit" class="btn btn-danger">移除</button>
+                        </form>
+                    </td>
                 </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td>@item.ProductName</td>
-                        <td>@item.Price.ToString("C0")</td>
-                        <td>
-                            <!-- 表單用於更新數量 -->
-                             <form method="post" action="@Url.Action("UpdateCartItemQuantity", "Home")">
-                            <input type="number" name="quantity-@item.Id" value="@item.Quantity" min="0" class="form-control" style="width: 60px;" onchange="this.form.submit()" />
-                            <input type="hidden" name="cartItemId-@item.Id" value="@item.Id" />
-                          </form>
-                        </td>
-                        <td>@item.Total.ToString("C0")</td>
-                        <td>
-                            <!-- 移除商品按鈕 -->
-                            <form asp-action="RemoveFromCart" method="post">
-                                <input type="hidden" name="cartItemId" value="@item.Id" />
-                                <button type="submit" class="btn btn-danger">移除</button>
-                            </form>
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
+            }
+        </tbody>
+    </table>
 
 
     <div class="d-flex justify-content-between">
         <h3>總金額：@Model.Sum(item => item.Total).ToString("C0")</h3>
-        <form asp-action="ClearCart" method="post">
+       <form asp-action="ClearCart" method="post">
             <button type="submit" class="btn btn-danger">清空購物車</button>
-        </form>
-    </div>
+         </form>
+     </div>
+
+
+
 
     <div class="mt-3">
         <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">繼續購物</a>
@@ -63,3 +66,5 @@ else
     <p class="alert alert-info">您的購物車是空的。</p>
     <a asp-controller="Home" asp-action="Index" class="btn btn-primary">前往商品頁面</a>
 }
+
+

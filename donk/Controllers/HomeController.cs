@@ -11,11 +11,11 @@ namespace donk.Controllers
     public class HomeController : Controller
     {
 
-            private readonly loginproContext _context;
+        private readonly loginproContext _context;
 
-            public HomeController(loginproContext context)
-            {
-                _context = context;
+        public HomeController(loginproContext context)
+        {
+            _context = context;
         }
         [AllowAnonymous]
         public async Task<IActionResult> Index(string searchString, int? page)
@@ -142,44 +142,44 @@ namespace donk.Controllers
             return View(cartItems);
         }
         // 更新購物車商品數量
+
         [HttpPost]
-        public IActionResult UpdateCartItemQuantity(IFormCollection form)
+        public IActionResult UpdateCartItemQuantity(int cartItemId, int quantity)
         {
-            var username = User.FindFirst(ClaimTypes.Name)?.Value;
             var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             var userId = int.Parse(userIdString!);
 
+            // 查找購物車項目
+            var cartItem = _context.CartItems.SingleOrDefault(ci => ci.Id == cartItemId && ci.UserId == userId);
 
-            // 處理表單中所有的數量變更
-            foreach (var key in form.Keys)
+            if (cartItem != null)
             {
-                if (key.StartsWith("quantity-"))
+                if (quantity > 0)
                 {
-                    // 提取 cartItemId
-                    var cartItemId = int.Parse(key.Split('-')[1]);
-                    var quantity = int.Parse(form[key]);
-
-                    // 查找購物車項目
-                    var cartItem = _context.CartItems.SingleOrDefault(ci => ci.Id == cartItemId && ci.UserId == userId);
-                    if (cartItem != null)
-                    {
-                        if (quantity > 0)
-                        {
-                            // 更新數量
-                            cartItem.Quantity = quantity;
-                        }
-                        else
-                        {
-                            // 如果數量為 0，刪除該商品
-                            _context.CartItems.Remove(cartItem);
-                        }
-                    }
+                    // 更新數量
+                    cartItem.Quantity = quantity;
                 }
+                else
+                {
+                    // 如果數量為 0，刪除該商品
+                    _context.CartItems.Remove(cartItem);
+                }
+
+                _context.SaveChanges(); // 保存變更
             }
 
-            _context.SaveChanges(); // 保存所有更改
-            return RedirectToAction(nameof(Cart)); // 重定向回購物車頁面
+            //var total = _context.CartItems
+            //  .Where(ci => ci.UserId == userId)
+            //    .Sum(ci => ci.Quantity * ci.Product.Price);
+
+            //// 返回JSON數據
+            //return Json(new { success = true, totalPrice = total, itemTotal = cartItem?.Quantity * cartItem?.Product.Price });
+
+
+            //重定向回購物車頁面，讓使用者看到更新後的內容
+            return RedirectToAction(nameof(Cart));
         }
+
 
 
         // 移除購物車商品
@@ -224,10 +224,9 @@ namespace donk.Controllers
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-            public IActionResult Error()
-            {
-                return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-            }
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
-
+}

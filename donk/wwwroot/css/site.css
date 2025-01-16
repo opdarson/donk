@@ -106,3 +106,18 @@ footer a {
     .nav-item .fa-cart-shopping:hover {
         transform: scale(1.2);
     }
+
+
+/*購物車圖示調整*/
+
+#cart-item-count {
+
+    position:relative;
+
+    right:18px;
+
+    bottom:15px;
+
+
+
+}

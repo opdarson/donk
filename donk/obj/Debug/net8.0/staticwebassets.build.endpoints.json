@@ -181,7 +181,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2104"
+          "Value": "2224"
         },
         {
           "Name": "Content-Type",
@@ -189,22 +189,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j2T8xMBGsR3xPos/GV3AzlPBhM/Ze1fmbhCDg9IrlZw=\""
+          "Value": "\"67ApH1Jtf9G5AKIpIa5PSWN0aTCuoMdNLNPHML+cM2Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:35:04 GMT"
+          "Value": "Wed, 15 Jan 2025 23:44:58 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j2T8xMBGsR3xPos/GV3AzlPBhM/Ze1fmbhCDg9IrlZw="
+          "Value": "sha256-67ApH1Jtf9G5AKIpIa5PSWN0aTCuoMdNLNPHML+cM2Y="
         }
       ]
     },
     {
-      "Route": "css/site.tt0lsywhdn.css",
+      "Route": "css/site.lkjkfgshpr.css",
       "AssetFile": "css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -218,7 +218,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2104"
+          "Value": "2224"
         },
         {
           "Name": "Content-Type",
@@ -226,21 +226,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j2T8xMBGsR3xPos/GV3AzlPBhM/Ze1fmbhCDg9IrlZw=\""
+          "Value": "\"67ApH1Jtf9G5AKIpIa5PSWN0aTCuoMdNLNPHML+cM2Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:35:04 GMT"
+          "Value": "Wed, 15 Jan 2025 23:44:58 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tt0lsywhdn"
+          "Value": "lkjkfgshpr"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j2T8xMBGsR3xPos/GV3AzlPBhM/Ze1fmbhCDg9IrlZw="
+          "Value": "sha256-67ApH1Jtf9G5AKIpIa5PSWN0aTCuoMdNLNPHML+cM2Y="
         },
         {
           "Name": "label",
@@ -1557,6 +1557,88 @@
         {
           "Name": "label",
           "Value": "images/products/83344d1a-f140-4173-869b-f3112cfdfde5.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/9dacee59-1459-402d-876e-fd8da7d47748.jpg",
+      "AssetFile": "images/products/9dacee59-1459-402d-876e-fd8da7d47748.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "478708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cnb9ngqbGRtQDzJNbXGAVi5A3grp2GJTKJk0yhyQuSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 07:55:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cnb9ngqbGRtQDzJNbXGAVi5A3grp2GJTKJk0yhyQuSg="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/9dacee59-1459-402d-876e-fd8da7d47748.mr9wd4kuy9.jpg",
+      "AssetFile": "images/products/9dacee59-1459-402d-876e-fd8da7d47748.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "478708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cnb9ngqbGRtQDzJNbXGAVi5A3grp2GJTKJk0yhyQuSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 07:55:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mr9wd4kuy9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cnb9ngqbGRtQDzJNbXGAVi5A3grp2GJTKJk0yhyQuSg="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/9dacee59-1459-402d-876e-fd8da7d47748.jpg"
         }
       ]
     },
