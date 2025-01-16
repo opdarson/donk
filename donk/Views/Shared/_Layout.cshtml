@@ -69,6 +69,8 @@
                                     <i class="fa-regular fa-user fa-xl" style="color: #000000" id="usericon"></i>@User.FindFirst(ClaimTypes.Name)?.Value
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                    <li><a class="dropdown-item" asp-controller="Wishlist" asp-action="Index">個人資訊</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Login" asp-action="ChangePassword">修改密碼</a></li>
                                     <li><a class="dropdown-item" asp-controller="Wishlist" asp-action="Index">關注清單</a></li>
                                     <li><a class="dropdown-item" asp-controller="Checkout" asp-action="MyOrders">我的訂單</a></li>
                                     <li><a class="dropdown-item" asp-controller="Login" asp-action="Logout">登出</a></li>

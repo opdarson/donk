@@ -172,5 +172,71 @@ namespace donk.Controllers
             }
             return View(newUser);
         }
+
+        [Authorize]
+        [HttpGet]
+        public IActionResult ChangePassword()
+        {
+            return View();
+        }
+
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult ChangePassword(ChangePasswordViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            // 從當前會話獲取使用者資訊
+            var sessionId = Request.Cookies["SessionId"];
+            if (string.IsNullOrEmpty(sessionId))
+            {
+                TempData["ErrorMessage"] = "無效的會話，請重新登入！";
+                return RedirectToAction("Index");
+            }
+
+            var loginSession = _context.LoginSession.FirstOrDefault(ls => ls.SessionId.ToString() == sessionId);
+            if (loginSession == null)
+            {
+                TempData["ErrorMessage"] = "無效的會話，請重新登入！";
+                return RedirectToAction("Index");
+            }
+
+            var user = _context.Users.FirstOrDefault(u => u.Id == loginSession.UserId);
+            if (user == null)
+            {
+                TempData["ErrorMessage"] = "使用者不存在！";
+                return RedirectToAction("Index");
+            }
+
+            // 驗證舊密碼
+            var passwordVerificationResult = _passwordHasher.VerifyHashedPassword(
+                user,
+                user.Password, // 資料庫中的雜湊密碼
+                model.OldPassword // 使用者輸入的舊密碼
+            );
+
+            if (passwordVerificationResult != PasswordVerificationResult.Success)
+            {
+                TempData["ErrorMessage"] = "舊密碼不正確！";
+                return View(model);
+            }
+
+            // 驗證成功，更新新密碼
+            user.Password = _passwordHasher.HashPassword(user, model.NewPassword);
+            _context.SaveChanges();
+
+
+
+
+            TempData["SuccessMessage"] = "密碼修改成功！請重新登入。";
+            return RedirectToAction("Logout");
+        }
+
+
+
     }
 }
