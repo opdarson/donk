@@ -48,10 +48,10 @@
 
     <div class="d-flex justify-content-between">
         <h3>總金額：@Model.Sum(item => item.Total).ToString("C0")</h3>
-       <form asp-action="ClearCart" method="post">
+        <form asp-action="ClearCart" method="post">
             <button type="submit" class="btn btn-danger">清空購物車</button>
-         </form>
-     </div>
+        </form>
+    </div>
 
 
 
@@ -66,5 +66,4 @@ else
     <p class="alert alert-info">您的購物車是空的。</p>
     <a asp-controller="Home" asp-action="Index" class="btn btn-primary">前往商品頁面</a>
 }
-
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BzLSuOJV79eKZW/3DGRrrm879uTM/w6izKzErcNd4v4=",
+  "Hash": "YxxcnugDyQ4VRbC8/lI/NSG9HlLbZ3ErUAMSIyrjhvI=",
   "Source": "donk",
   "BasePath": "_content/donk",
   "Mode": "Default",
@@ -115,11 +115,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lkjkfgshpr",
-      "Integrity": "67ApH1Jtf9G5AKIpIa5PSWN0aTCuoMdNLNPHML+cM2Y=",
+      "Fingerprint": "edauelh2ob",
+      "Integrity": "/p2jBPbDwgrtk8M0cJpyCnnoNp1fk0rs+QXNK5sD5+w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\css\\Wishlist.css",
+      "SourceId": "donk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\",
+      "BasePath": "_content/donk",
+      "RelativePath": "css/Wishlist#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "motx39zz01",
+      "Integrity": "elQlIwJVPFuHceDzdlDZyXUug4YRB5LlHBxuDsBaY2M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Wishlist.css"
     },
     {
       "Identity": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\favicon.ico",
@@ -2230,7 +2251,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2224"
+          "Value": "2596"
         },
         {
           "Name": "Content-Type",
@@ -2238,11 +2259,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"67ApH1Jtf9G5AKIpIa5PSWN0aTCuoMdNLNPHML+cM2Y=\""
+          "Value": "\"/p2jBPbDwgrtk8M0cJpyCnnoNp1fk0rs+QXNK5sD5+w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 23:44:58 GMT"
+          "Value": "Thu, 16 Jan 2025 03:13:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2252,12 +2273,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-67ApH1Jtf9G5AKIpIa5PSWN0aTCuoMdNLNPHML+cM2Y="
+          "Value": "sha256-/p2jBPbDwgrtk8M0cJpyCnnoNp1fk0rs+QXNK5sD5+w="
         }
       ]
     },
     {
-      "Route": "css/site.lkjkfgshpr.css",
+      "Route": "css/site.edauelh2ob.css",
       "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2267,7 +2288,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2224"
+          "Value": "2596"
         },
         {
           "Name": "Content-Type",
@@ -2275,11 +2296,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"67ApH1Jtf9G5AKIpIa5PSWN0aTCuoMdNLNPHML+cM2Y=\""
+          "Value": "\"/p2jBPbDwgrtk8M0cJpyCnnoNp1fk0rs+QXNK5sD5+w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 23:44:58 GMT"
+          "Value": "Thu, 16 Jan 2025 03:13:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2289,7 +2310,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lkjkfgshpr"
+          "Value": "edauelh2ob"
         },
         {
           "Name": "label",
@@ -2297,7 +2318,89 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-67ApH1Jtf9G5AKIpIa5PSWN0aTCuoMdNLNPHML+cM2Y="
+          "Value": "sha256-/p2jBPbDwgrtk8M0cJpyCnnoNp1fk0rs+QXNK5sD5+w="
+        }
+      ]
+    },
+    {
+      "Route": "css/Wishlist.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\css\\Wishlist.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"elQlIwJVPFuHceDzdlDZyXUug4YRB5LlHBxuDsBaY2M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 06:39:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-elQlIwJVPFuHceDzdlDZyXUug4YRB5LlHBxuDsBaY2M="
+        }
+      ]
+    },
+    {
+      "Route": "css/Wishlist.motx39zz01.css",
+      "AssetFile": "C:\\Users\\Joseph\\Desktop\\donk\\donk\\wwwroot\\css\\Wishlist.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"elQlIwJVPFuHceDzdlDZyXUug4YRB5LlHBxuDsBaY2M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 06:39:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "motx39zz01"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Wishlist.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-elQlIwJVPFuHceDzdlDZyXUug4YRB5LlHBxuDsBaY2M="
         }
       ]
     },

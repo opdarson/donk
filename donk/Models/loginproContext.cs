@@ -25,6 +25,8 @@ public partial class loginproContext : DbContext
 
     public virtual DbSet<Users> Users { get; set; }
 
+    public virtual DbSet<WishlistItems> WishlistItems { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<CartItems>(entity =>
@@ -130,6 +132,21 @@ public partial class loginproContext : DbContext
                 .IsRequired()
                 .HasMaxLength(50)
                 .IsUnicode(false);
+        });
+
+        modelBuilder.Entity<WishlistItems>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Wishlist__3214EC07833D136B");
+
+            entity.Property(e => e.CreatedAt).HasColumnType("datetime");
+            entity.Property(e => e.UserId)
+                .IsRequired()
+                .HasMaxLength(255);
+
+            entity.HasOne(d => d.Product).WithMany(p => p.WishlistItems)
+                .HasForeignKey(d => d.ProductId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_WishlistItems_Product");
         });
 
         OnModelCreatingPartial(modelBuilder);

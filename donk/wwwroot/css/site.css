@@ -121,3 +121,27 @@ footer a {
 
 
 }
+
+
+/*右上角使用者小人頭*/
+
+#usericon {
+    position: relative;
+    right: 18px;
+
+}
+
+
+.wishlist-btn {
+
+    font-size: 14px;
+    color: #e74c3c; /* 愛心紅色 */
+    border: 1px solid #e74c3c;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+    .wishlist-btn:hover {
+        background-color: #e74c3c;
+        color: white;
+    }

@@ -1,6 +1,7 @@
 wwwroot\css\all.min.css
 wwwroot\css\product.css
 wwwroot\css\site.css
+wwwroot\css\Wishlist.css
 wwwroot\favicon.ico
 wwwroot\images\products\0a0ad41b-bdf2-4ee1-afb7-3e3250144f78.jpg
 wwwroot\images\products\1f102558-e7e8-41ee-a1e5-606d0f80f898.jpg

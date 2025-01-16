@@ -42,6 +42,17 @@
                          </li>
 
 
+
+                        @* <li class="nav-item "> *@
+                        @*     <a class="nav-link text-dark" asp-area="" asp-controller="Wishlist" asp-action="Index"> *@
+                        @*         <i class="fa-solid fa-heart fa-xl" style="color: #FFD43B;"></i> *@
+                        @*         <span id="cart-item-counts" class="badge bg-danger"></span> *@
+
+                        @*     </a> *@
+                        @* </li> *@
+
+
+
                         <li class="nav-item ms-auto">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Cart">
                                 <i class="fa-solid fa-cart-shopping fa-2xl"></i>
@@ -55,9 +66,10 @@
                         {
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-dark" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    @User.FindFirst(ClaimTypes.Name)?.Value
+                                    <i class="fa-regular fa-user fa-xl" style="color: #000000" id="usericon"></i>@User.FindFirst(ClaimTypes.Name)?.Value
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                    <li><a class="dropdown-item" asp-controller="Wishlist" asp-action="Index">關注清單</a></li>
                                     <li><a class="dropdown-item" asp-controller="Checkout" asp-action="MyOrders">我的訂單</a></li>
                                     <li><a class="dropdown-item" asp-controller="Login" asp-action="Logout">登出</a></li>
 

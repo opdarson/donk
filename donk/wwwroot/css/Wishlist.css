@@ -1,0 +1,104 @@
+/* 關注清單容器 */
+.wishlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* 保持每個卡片最小寬度 */
+    gap: 20px;
+    padding: 20px;
+    justify-content: center; /* 避免只有一個商品時拉伸整列 */
+}
+
+/* 商品卡片樣式 */
+.wishlist-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 100%; /* 預設寬度，適配網格 */
+    max-width: 300px; /* 限制單個卡片最大寬度 */
+    margin: 0 auto; /* 保持卡片居中 */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+    .wishlist-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+/* 商品圖片 */
+.product-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+/* 商品名稱與描述 */
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 10px;
+    height: 40px; /* 固定高度，防止布局不一致 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 商品價格 */
+.product-price {
+    font-size: 16px;
+    color: #4CAF50;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* 按鈕區域 */
+.wishlist-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+    /* 按鈕樣式 */
+    .wishlist-actions button {
+        border: none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+.btn-success {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+    .btn-success:hover {
+        background-color: #45a049;
+    }
+
+.btn-danger {
+    background-color: #f44336;
+    color: #fff;
+}
+
+    .btn-danger:hover {
+        background-color: #e53935;
+    }
+
+/* 空清單樣式 */
+p {
+    text-align: center;
+    color: #666;
+}

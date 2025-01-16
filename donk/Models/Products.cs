@@ -20,4 +20,6 @@ public partial class Products
     public virtual ICollection<CartItems> CartItems { get; set; } = new List<CartItems>();
 
     public virtual ICollection<OrderItems> OrderItems { get; set; } = new List<OrderItems>();
+
+    public virtual ICollection<WishlistItems> WishlistItems { get; set; } = new List<WishlistItems>();
 }

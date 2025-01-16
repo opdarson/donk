@@ -45,6 +45,21 @@
     </div>
 </div>
 
+<!-- 成功提示彈窗 -->
+<div id="wishlist-success-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <p>🎉 商品已成功加入心願清單！</p>
+    </div>
+</div>
+
+<!-- 已存在提示彈窗 -->
+<div id="wishlist-exists-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <p>⚠️ 此商品已在心願清單中！</p>
+    </div>
+</div>
+
+
 
 <style>
 
@@ -93,6 +108,7 @@
                     <input type="hidden" name="currentPage" value="@ViewBag.CurrentPage" /> <!-- 傳遞目前頁碼 -->
                     @* <button type="submit" class="btn btn-success">加入購物車</button> *@
                     <button class="btn btn-success add-to-cart-btn" data-product-id="@product.Id">加入購物車</button>
+                <button class="wishlist-btn" data-product-id="@product.Id">❤️</button>
                 @* </form> *@
             </div>
 
@@ -131,9 +147,40 @@ else
                         $('#success-modal').fadeIn();
                         setTimeout(function () {
                             $('#success-modal').fadeOut();
-                        }, 600);
+                        }, 300);
                     } else {
                         alert('加入購物車失敗，請稍後再試！');
+                    }
+                },
+                error: function () {
+                    alert('發生錯誤，請稍後再試！');
+                }
+            });
+        });
+    });
+
+            $(document).ready(function () {
+        $('.wishlist-btn').click(function () {
+            var button = $(this);
+            var productId = button.data('product-id');
+
+            $.ajax({
+                url: '/Wishlist/AddToWishlist',
+                method: 'POST',
+                data: { productId: productId },
+                success: function (response) {
+                    if (response.success) {
+                        // 顯示成功提示彈窗
+                        $('#wishlist-success-modal').fadeIn();
+                        setTimeout(function () {
+                            $('#wishlist-success-modal').fadeOut();
+                        }, 300); // 2秒後自動消失
+                    } else {
+                        // 顯示已存在提示彈窗
+                        $('#wishlist-exists-modal').fadeIn();
+                        setTimeout(function () {
+                            $('#wishlist-exists-modal').fadeOut();
+                        }, 300); // 2秒後自動消失
                     }
                 },
                 error: function () {

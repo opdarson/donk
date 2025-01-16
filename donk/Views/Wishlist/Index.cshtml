@@ -1,0 +1,52 @@
+﻿@model List<donk.Models.Products>
+
+@{
+    ViewData["Title"] = "關注清單";
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success text-center">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<link href="~/css/wishlist.css" rel="stylesheet" />
+
+<h2>關注清單</h2>
+
+@if (Model.Any())
+{
+    <div class="wishlist-grid">
+        @foreach (var product in Model)
+        {
+            <div class="wishlist-card">
+                <img src="@Url.Content(product.ImageData)" alt="@product.Name" class="product-image" />
+                <h3 class="product-name">@product.Name</h3>
+                <p class="product-description">@product.Description</p>
+                <p class="product-price">@Html.DisplayFor(m => product.Price)</p>
+                <div class="wishlist-actions">
+                    <form asp-action="AddToCartFromWishlist" method="post" class="d-inline">
+                        <input type="hidden" name="productId" value="@product.Id" />
+                        <button type="submit" class="btn btn-success">加入購物車</button>
+                    </form>
+                    <form asp-action="RemoveFromWishlist" method="post" class="d-inline">
+                        <input type="hidden" name="productId" value="@product.Id" />
+                        <button type="submit" class="btn btn-danger">移除</button>
+                    </form>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>關注清單是空的！</p>
+}
