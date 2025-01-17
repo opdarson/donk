@@ -161,7 +161,9 @@ namespace donk.Controllers
                 {
                     Username = newUser.Username,
                     Password = _passwordHasher.HashPassword(null, newUser.Password), // 密碼雜湊
-                    Email = newUser.Email
+                    Email = newUser.Email,
+                    Phone = newUser.Phone,
+                    Address = newUser.Address
                 };
 
                 _context.Users.Add(userToSave);

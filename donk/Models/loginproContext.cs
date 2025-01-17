@@ -120,6 +120,9 @@ public partial class loginproContext : DbContext
 
             entity.HasIndex(e => e.Username, "UQ__users__F3DBC572ADD1F7E5").IsUnique();
 
+            entity.Property(e => e.Address)
+                .HasMaxLength(100)
+                .IsUnicode(false);
             entity.Property(e => e.Email)
                 .IsRequired()
                 .HasMaxLength(100)
@@ -127,6 +130,9 @@ public partial class loginproContext : DbContext
             entity.Property(e => e.Password)
                 .IsRequired()
                 .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.Phone)
+                .HasMaxLength(100)
                 .IsUnicode(false);
             entity.Property(e => e.Username)
                 .IsRequired()

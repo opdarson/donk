@@ -168,12 +168,6 @@ namespace donk.Controllers
                 _context.SaveChanges(); // 保存變更
             }
 
-            //var total = _context.CartItems
-            //  .Where(ci => ci.UserId == userId)
-            //    .Sum(ci => ci.Quantity * ci.Product.Price);
-
-            //// 返回JSON數據
-            //return Json(new { success = true, totalPrice = total, itemTotal = cartItem?.Quantity * cartItem?.Product.Price });
 
 
             //重定向回購物車頁面，讓使用者看到更新後的內容
