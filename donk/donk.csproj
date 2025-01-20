@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <Folder Include="Views\Shared\EditTemplates\" />
-    <Folder Include="Views\Shared\Partial View\" />
   </ItemGroup>
 
 </Project>

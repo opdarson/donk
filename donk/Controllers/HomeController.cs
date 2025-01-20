@@ -18,37 +18,58 @@ namespace donk.Controllers
             _context = context;
         }
         [AllowAnonymous]
-        public async Task<IActionResult> Index(string searchString, int? page)
+        public IActionResult Index(string searchString, string category, int? minPrice, int? maxPrice, string sortOrder, int? page)
         {
 
-            int pageSize = 4; // 每頁顯示 4 筆資料
-            int pageNumber = page ?? 1; // 當前頁碼，默認為 1
-            // 取得所有商品
-            var products = from p in _context.Products
-                           select p;
+            var products = _context.Products.AsQueryable();
 
-            // 如果有搜尋字串，過濾商品
+            // 搜尋
             if (!string.IsNullOrEmpty(searchString))
             {
-                products = products.Where(p => p.Name.Contains(searchString) || p.Description.Contains(searchString));
+                products = products.Where(p => p.Name.Contains(searchString));
             }
-            var pagedProducts = await products.ToPagedListAsync(pageNumber, pageSize);
-            ViewBag.CurrentPage = pageNumber; // 將目前頁碼存入 ViewBag，供前端使用
 
-            //if (User.Identity.IsAuthenticated)
+
+
+            // 價格範圍篩選
+            if (minPrice.HasValue)
+            {
+                products = products.Where(p => p.Price >= minPrice);
+            }
+
+            if (maxPrice.HasValue)
+            {
+                products = products.Where(p => p.Price <= maxPrice);
+            }
+
+            //// 排序
+            //if (!string.IsNullOrEmpty(sortOrder))
             //{
-            //    var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            //    var userId = int.Parse(userIdString!);
-            //    ViewBag.CartItemCount = _context.CartItems.Where(ci => ci.UserId == userId).Sum(ci => ci.Quantity);
+            //    if (sortOrder == "price_asc")
+            //    {
+            //        products = products.OrderBy(p => p.Price);
+            //    }
+            //    else if (sortOrder == "price_desc")
+            //    {
+            //        products = products.OrderByDescending(p => p.Price);
+            //    }
             //}
-            //else
-            //{
-            //    ViewBag.CartItemCount = 0;
-            //}
 
 
+            // 分頁
+            int pageSize = 3;
+            int pageNumber = page ?? 1;
 
-            return View(pagedProducts);
+            // 傳遞查詢條件到 View
+            ViewData["CurrentFilter"] = searchString;
+
+            ViewData["MinPrice"] = minPrice;
+            ViewData["MaxPrice"] = maxPrice;
+
+
+            //return PartialView("_ProductListPartial", products.ToPagedList(pageNumber, pageSize));
+
+            return View(products.ToPagedList(pageNumber, pageSize));
 
         }
 
@@ -92,8 +113,7 @@ namespace donk.Controllers
 
             return Json(new { success = true, cartItemCount });
 
-            //TempData["SuccessMessage"] = "商品已成功加入購物車！";
-            //return RedirectToAction("Index", new { page = currentPage });
+
         }
 
 

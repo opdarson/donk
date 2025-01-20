@@ -24,20 +24,6 @@
 <link href="~/css/product.css" rel="stylesheet" />
 
 
-<form asp-action="Index" method="get" class="mb-4">
-    <div class="row g-2 align-items-center">
-        <!-- 搜尋商品輸入框 -->
-        <div class="col-md-11 col-sm-12">
-            <label for="searchString" class="form-label visually-hidden">搜尋商品</label>
-            <input type="text" name="searchString" class="form-control" placeholder="搜尋商品" value="@ViewData["CurrentFilter"]" />
-        </div>
-
-        <!-- 搜尋按鈕 -->
-        <div class="col-md-1 col-sm-12">
-            <button type="submit" class="btn btn-primary w-100">搜尋</button>
-        </div>
-    </div>
-</form>
 
 <div id="success-modal" class="modal" style="display:none;">
     <div class="modal-content">
@@ -48,14 +34,14 @@
 <!-- 成功提示彈窗 -->
 <div id="wishlist-success-modal" class="modal" style="display: none;">
     <div class="modal-content">
-        <p>🎉 商品已成功加入心願清單！</p>
+        <p>🎉 商品已成功加入關注清單！</p>
     </div>
 </div>
 
 <!-- 已存在提示彈窗 -->
 <div id="wishlist-exists-modal" class="modal" style="display: none;">
     <div class="modal-content">
-        <p>⚠️ 此商品已在心願清單中！</p>
+        <p>⚠️ 此商品已在關注清單中！</p>
     </div>
 </div>
 
@@ -93,38 +79,74 @@
 
 </style>
 
-@if (Model.Any())
-{
-    <div class="product-grid">
-        @foreach (var product in Model)
-        {
-            <div class="product-card">
-                <img src="@Url.Content(product.ImageData)" alt="@product.Name" class="product-image" />
-                <h3 class="product-name">@product.Name</h3>
-                <p class="product-description">@product.Description</p>
-                <p class="product-price">@Html.DisplayFor(m => product.Price)</p>
-                @* <form asp-action="AddToCart" method="post"> *@
-                    <input type="hidden" name="productId" value="@product.Id" />
-                    <input type="hidden" name="currentPage" value="@ViewBag.CurrentPage" /> <!-- 傳遞目前頁碼 -->
-                    @* <button type="submit" class="btn btn-success">加入購物車</button> *@
-                    <button class="btn btn-success add-to-cart-btn" data-product-id="@product.Id">加入購物車</button>
-                <button class="wishlist-btn" data-product-id="@product.Id">❤️</button>
-                @* </form> *@
+<div class="row">
+    <!-- 側邊欄篩選功能 -->
+    <aside class="col-md-2">
+
+        <form asp-action="Index" method="get">
+
+            <!-- 價格範圍篩選 -->
+            <div class="mb-4">
+                <h5>價格範圍</h5>
+                <input type="number" name="minPrice" class="form-control mb-2" placeholder="最低價格" value="@ViewData["MinPrice"]" />
+                <input type="number" name="maxPrice" class="form-control" placeholder="最高價格" value="@ViewData["MaxPrice"]" />
             </div>
 
+
+            <button type="submit" class="btn btn-primary w-100">套用篩選</button>
+        </form>
+    </aside>
+
+    <!-- 商品列表 -->
+    <main class="col-md-10">
+        <form asp-action="Index" method="get" class="mb-4">
+            <div class="row g-2 align-items-center">
+                <div class="col-md-11 col-sm-12">
+                    <input type="text" name="searchString" class="form-control" placeholder="搜尋商品" value="@ViewData["CurrentFilter"]" />
+                </div>
+                <div class="col-md-1 col-sm-12">
+                    <button type="submit" class="btn btn-primary w-100">搜尋</button>
+                </div>
+            </div>
+        </form>
+
+
+
+
+
+        @if (Model.Any())
+        {
+            <div class="product-grid">
+                @foreach (var product in Model)
+                {
+                    <div class="product-card">
+                        <img src="@Url.Content(product.ImageData)" alt="@product.Name" class="product-image" />
+                        <h3 class="product-name">@product.Name</h3>
+                        <p class="product-description">@product.Description</p>
+                        <p class="product-price">NT$ @product.Price</p>
+                        <button class="btn btn-success add-to-cart-btn" data-product-id="@product.Id">加入購物車</button>
+                        <button class="wishlist-btn" data-product-id="@product.Id">❤️</button>
+                    </div>
+                }
+            </div>
+
+            <div class="pagination-container">
+                @Html.PagedListPager(Model, page => Url.Action("Index", new
+                {
+                    page,
+                    searchString = ViewData["CurrentFilter"],
+                    minPrice = ViewData["MinPrice"],
+                    maxPrice = ViewData["MaxPrice"],
+
+                }))
+            </div>
         }
-    </div>
-
-    <!-- 分頁按鈕 -->
-    <div class="pagination-container">
-        @Html.PagedListPager(Model, page => Url.Action("Index", new { page , searchString = ViewData["CurrentFilter"], }))
-    </div>
-
-}
-else
-{
-    <p>找不到符合條件的商品。</p>
-}
+        else
+        {
+            <p>找不到符合條件的商品。</p>
+        }
+    </main>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -189,5 +211,8 @@ else
             });
         });
     });
+
+
+
 </script>
 

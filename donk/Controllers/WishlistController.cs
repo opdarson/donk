@@ -35,7 +35,7 @@ namespace donk.Controllers
             }
             else
             {
-                return Json(new { success = false, message = "此商品已在心願清單中！" });
+                return Json(new { success = false, message = "此商品已在關注清單中！" });
             }
         }
 
@@ -56,7 +56,7 @@ namespace donk.Controllers
         public IActionResult RemoveFromWishlist(int productId)
         {
               var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            // 查找心願清單中的項目
+            // 查找關注清單中的項目
             var wishlistItem = _context.WishlistItems
                 .FirstOrDefault(w => w.ProductId == productId && w.UserId == userId);
 
@@ -65,14 +65,14 @@ namespace donk.Controllers
                 _context.WishlistItems.Remove(wishlistItem); // 從資料庫中移除
                 _context.SaveChanges();
 
-                TempData["SuccessMessage"] = "商品已成功從心願清單中移除！";
+                TempData["SuccessMessage"] = "商品已成功從關注清單中移除！";
             }
             else
             {
-                TempData["ErrorMessage"] = "無法找到該商品於您的心願清單中。";
+                TempData["ErrorMessage"] = "無法找到該商品於您的關注清單中。";
             }
 
-            // 返回心願清單頁面
+            // 返回關注清單頁面
             return RedirectToAction("Index");
         }
 
