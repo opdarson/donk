@@ -18,7 +18,7 @@ namespace donk.Controllers
             _context = context;
         }
         [AllowAnonymous]
-        public IActionResult Index(string searchString, string category, int? minPrice, int? maxPrice, string sortOrder, int? page)
+        public IActionResult Index(string searchString, string category, int? minPrice, int? maxPrice, int? page)
         {
 
             var products = _context.Products.AsQueryable();
@@ -42,18 +42,6 @@ namespace donk.Controllers
                 products = products.Where(p => p.Price <= maxPrice);
             }
 
-            //// ±Æ§Ç
-            //if (!string.IsNullOrEmpty(sortOrder))
-            //{
-            //    if (sortOrder == "price_asc")
-            //    {
-            //        products = products.OrderBy(p => p.Price);
-            //    }
-            //    else if (sortOrder == "price_desc")
-            //    {
-            //        products = products.OrderByDescending(p => p.Price);
-            //    }
-            //}
 
 
             // ¤À­¶
@@ -66,8 +54,6 @@ namespace donk.Controllers
             ViewData["MinPrice"] = minPrice;
             ViewData["MaxPrice"] = maxPrice;
 
-
-            //return PartialView("_ProductListPartial", products.ToPagedList(pageNumber, pageSize));
 
             return View(products.ToPagedList(pageNumber, pageSize));
 

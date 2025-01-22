@@ -132,13 +132,13 @@
 
             <div class="pagination-container">
                 @Html.PagedListPager(Model, page => Url.Action("Index", new
-                {
-                    page,
-                    searchString = ViewData["CurrentFilter"],
-                    minPrice = ViewData["MinPrice"],
-                    maxPrice = ViewData["MaxPrice"],
+                    {
+                        page,
+                        searchString = ViewData["CurrentFilter"],
+                        minPrice = ViewData["MinPrice"],
+                        maxPrice = ViewData["MaxPrice"],
 
-                }))
+                    }))
             </div>
         }
         else
@@ -215,4 +215,3 @@
 
 
 </script>
-

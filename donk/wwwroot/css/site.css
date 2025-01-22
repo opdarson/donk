@@ -19,8 +19,9 @@ html {
 
 body {
     margin-bottom: 60px;
-    background: linear-gradient(to right, #b8e1d3, #a0d8f1);
-
+        background: linear-gradient(to right, #b8e1d3, #a0d8f1);
+/*    background: url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center fixed;
+    background-size: cover;*/
 }
 
 /*// footer¨Ï¥Î//*/
