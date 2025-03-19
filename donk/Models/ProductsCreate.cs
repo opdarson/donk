@@ -27,7 +27,7 @@ public partial class ProductsCreate
     [Range(0, double.MaxValue)]
     public decimal Price { get; set; }
     [Required(ErrorMessage = "請確認有選擇到圖片")]
-   
+
     public IFormFile ImageFile { get; set; }
 
 

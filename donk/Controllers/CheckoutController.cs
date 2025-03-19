@@ -1,4 +1,4 @@
-﻿using System.Security.Claims;
+﻿using System.Security.Claims;  //取得當前使用者的身份資訊（如 UserId）。
 using donk.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -58,7 +58,7 @@ namespace donk.Controllers
             // 查詢購物車內容並檢查 Product 是否為 null
             var cartItems = _context.CartItems
                 .Where(ci => ci.UserId == userId)
-                .Include(ci => ci.Product) // 載入相關的 Product
+                .Include(ci => ci.Product) // 載入相關的 Product  避免 null 錯誤
                 .ToList();
 
             if (!cartItems.Any())

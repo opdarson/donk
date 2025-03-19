@@ -48,13 +48,13 @@ namespace donk.Controllers
             int pageSize = 3;
             int pageNumber = page ?? 1;
 
-            // 傳遞查詢條件到 View
+            // 傳遞搜尋條件到 View，以便在頁面上顯示
             ViewData["CurrentFilter"] = searchString;
 
             ViewData["MinPrice"] = minPrice;
             ViewData["MaxPrice"] = maxPrice;
 
-
+            // 返回分頁後的產品清單
             return View(products.ToPagedList(pageNumber, pageSize));
 
         }
@@ -62,6 +62,7 @@ namespace donk.Controllers
         [HttpPost]
         public IActionResult AddToCart(int productId, int quantity = 1, int currentPage = 1)
         {
+            // 從目前用戶的 Claims 中取得用戶名稱和 ID
             var username = User.FindFirst(ClaimTypes.Name)?.Value;
             var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             var userId = int.Parse(userIdString!);
@@ -107,18 +108,23 @@ namespace donk.Controllers
         [HttpGet]
         public IActionResult GetCartItemCount()
         {
+
+            // 驗證使用者是否已登入
             if (User.Identity?.IsAuthenticated ?? false)
             {
                 var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
                 var userId = int.Parse(userIdString!);
 
+
+                // 計算購物車商品總數量
                 var cartItemCount = _context.CartItems
                     .Where(ci => ci.UserId == userId)
                     .Sum(ci => ci.Quantity);
 
+                // 返回 JSON 格式的數量
                 return Json(new { count = cartItemCount });
             }
-
+            // 如果使用者未登入，返回 0
             return Json(new { count = 0 });
         }
 
@@ -127,6 +133,7 @@ namespace donk.Controllers
 
         public IActionResult Cart()
         {
+            // 從目前用戶的 Claims 中取得用戶名稱和 ID
             var username = User.FindFirst(ClaimTypes.Name)?.Value;
             var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             var userId = int.Parse(userIdString!);
@@ -137,11 +144,11 @@ namespace donk.Controllers
                 .Where(ci => ci.UserId == userId)
                 .Select(ci => new CartItemViewModel
                 {
-                    Id = ci.Id,
-                    ProductName = ci.Product.Name,
-                    Price = ci.Product.Price,
-                    Quantity = ci.Quantity,
-                    Total = ci.Quantity * ci.Product.Price
+                    Id = ci.Id,                               // 直接使用 CartItems 表的 Id。
+                    ProductName = ci.Product.Name,            // 從關聯的 Products 表中取 Name。
+                    Price = ci.Product.Price,                 // 從關聯的 Products 表中取 Price。
+                    Quantity = ci.Quantity,                   // 直接使用 CartItems 表中的數量。
+                    Total = ci.Quantity * ci.Product.Price    // 計算總金額。
                 })
                 .ToList();
 

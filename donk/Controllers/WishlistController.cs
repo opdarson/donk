@@ -12,6 +12,8 @@ namespace donk.Controllers
             _context = context;
         }
 
+
+        //AJAX 判斷是否已存在在關注清單中
         [HttpPost]
         public IActionResult AddToWishlist(int productId)
         {

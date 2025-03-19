@@ -45,7 +45,7 @@ namespace donk.Controllers
 
                     if (passwordVerificationResult == PasswordVerificationResult.Success)
                     {
-                        // 移除其他裝置的登入會話
+                        // 移除其他裝置的登入狀態
                         var existingSession = _context.LoginSession.FirstOrDefault(ls => ls.UserId == existingUser.Id);
                         if (existingSession != null)
                         {
